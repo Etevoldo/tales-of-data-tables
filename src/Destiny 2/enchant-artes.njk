@@ -3,7 +3,8 @@ title: 'Destiny 2 Enchant artes'
 tags: 'Destiny 2'
 layout: layout.njk
 ---
-<h1 id="passive"># Artes passive enchants</h1>
+<h2 id="Physical Artes">Physical artes passive enchants</h2>
+<h3 id="Physical passive">passive enchants</h2>
 <table class="enchant">
   <tbody>
     <tr>
@@ -29,7 +30,7 @@ layout: layout.njk
   </tbody>
 </table>
 
-<h1 id="active"># Artes Active enchants</h1>
+<h3 id="Physical Active">Active enchants</h2>
 <table class="enchant">
   <tbody>
     <tr>
@@ -48,6 +49,33 @@ layout: layout.njk
         {% for item, desc in enchant %}
           <td>
             {{desc}}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2 id="Spells">Spell enchants </h2>
+<h3 id="Spells Passives">Passive enchants </h2>
+<table class="enchant">
+  <tbody>
+    <tr>
+      <th>Effect Name</th>
+      <th>Effect Name TL</th>
+      <th>Ky</th>
+      <th>Lo</th>
+      <th>Ju</th>
+      <th>Re</th>
+      <th>Na</th>
+      <th>Ha</th>
+      <th>Summary</th>
+    </tr>
+    {% for enchant in d2_shoujutsu_enchant_passive %}
+      <tr>
+        {% for item, desc in enchant %}
+          <td>
+            {{desc | safe}}
           </td>
         {% endfor %}
       </tr>

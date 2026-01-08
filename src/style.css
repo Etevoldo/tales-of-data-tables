@@ -20,6 +20,9 @@ table {
 td, th {
     border: 1px solid #727272;
 }
+tr:nth-child(2n) {
+    background-color: #2e2e2e;
+}
 
 /* enchant table */
 th {
@@ -38,4 +41,14 @@ th {
 /*navbar*/
 nav {
     display: flex;
+}
+
+/*toc*/
+.toc {
+    border: 2px solid #fbfbfb;
+    width: fit-content;
+}
+.toc ol {
+    margin: 0;
+    padding: 5px 40px 5px 40px;
 }
