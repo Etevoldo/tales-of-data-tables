@@ -12,6 +12,9 @@
             <h1>{{ title | safe }}</h1>
         </header>
         <main>
+        <aside>
+            {{ content | toc | safe }}
+        </aside>
             {{ content | safe }}
         </main>
     </body>
