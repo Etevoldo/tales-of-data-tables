@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title | safe }}</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        {% include 'nav.njk' %}
+        <header>
+            <h1>{{ title | safe }}</h1>
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+---
+title: 'Destiny 2 Enchant artes'
+tags: 'Destiny 2'
+layout: layout.njk
+---
+<h1 id="passive"># Artes passive enchants</h1>
+<table class="enchant">
+  <tbody>
+    <tr>
+      <th>Effect Name</th>
+      <th>Effect Name TL</th>
+      <th>Ky</th>
+      <th>Lo</th>
+      <th>Ju</th>
+      <th>Re</th>
+      <th>Na</th>
+      <th>Ha</th>
+      <th>Summary</th>
+    </tr>
+    {% for enchant in d2_tokugi_enchant_passive %}
+      <tr>
+        {% for item, desc in enchant %}
+          <td>
+            {{desc}}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h1 id="active"># Artes Active enchants</h1>
+<table class="enchant">
+  <tbody>
+    <tr>
+      <th>Effect Name</th>
+      <th>Effect Name TL</th>
+      <th>Ky</th>
+      <th>Lo</th>
+      <th>Ju</th>
+      <th>Re</th>
+      <th>Na</th>
+      <th>Ha</th>
+      <th>Summary</th>
+    </tr>
+    {% for enchant in d2_tokugi_enchant_active %}
+      <tr>
+        {% for item, desc in enchant %}
+          <td>
+            {{desc}}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

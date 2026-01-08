@@ -1,0 +1,10 @@
+---
+title: Tales of data tables
+layout: layout.njk
+---
+<h1>Destiny 2</h1>
+<ul>
+    {% for list in collections['Destiny 2'] %}
+    <li><a href="{{list.url}}">{{list.data.title}}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,112 @@
+[
+  {
+    "Effect Name": "連携発動",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": "チャージ後「○押し続け」でセットし、攻撃連携後○を離すと発動発動時にSPを10/9/8/7、TPを10/8/6/4消費"
+  },
+  {
+    "Effect Name": "硬直解除",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": "「○押し続け」で術発動後の硬直を解除する発動時にSPを40/36/32/28消費"
+  },
+  {
+    "Effect Name": "HP吸収",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "「○押し続け」で与えたダメージの1/4のHPを回復する発動時にSPを50/48/46/44消費"
+  },
+  {
+    "Effect Name": "SP転換",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "「○押し続け」でSPを30%回復する発動時にTPを15/14/13/12消費"
+  },
+  {
+    "Effect Name": "TP転換",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "",
+    "Summary": "「○押し続け」でTPを10%回復する発動時にSPを80/78/76/74消費"
+  },
+  {
+    "Effect Name": "SP分与",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "「○押し続け」で自分以外の味方のSPを15%回復する発動時にSPを90/88/86/84、TPを8/6/4/2消費"
+  },
+  {
+    "Effect Name": "気絶攻撃",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "「○押し続け」後のヒットで敵を気絶しやすくするSPを70/66/62/58消費"
+  },
+  {
+    "Effect Name": "一定完全回避",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "「○押し続け」で硬直中に約1秒間攻撃を回避する発動時にSPを40/36/32/28消費"
+  },
+  {
+    "Effect Name": "4倍速詠唱",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "",
+    "Summary": "詠唱開始直後に「○押し」で詠唱時間を25%に短縮する発動時にSPを100/97/94/91、TPを24/22/20/18消費"
+  },
+  {
+    "Effect Name": "追加晶術",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "「○押し続け」で昇華晶術を追加発動する発動時にSPを90/87/84/81、TPを20/18/16/14消費"
+  },
+  {
+    "Effect Name": "具現結晶",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": "SB時限定で「○押し続け」で精霊結晶を具現化するSPを100、TPを50/45/40/35消費（命中バグ・追加晶術バグを用いることでSB時以外・ナナリーでも発動可）"
+  }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "Effect Name": "効果上昇",
+        "Effect Name TL": "Effect UP",
+        "Kyle": "◯",
+        "Loni": "◯",
+        "Judas": "◯",
+        "Reala": "◯",
+        "Nanaly": "◯",
+        "Harold": "◯",
+        "Summary": "Increases damage by 3/6/9/12%. Has no effect to extentions and Crystal Incarnations/Mystics"
+    },
+    {
+        "Effect Name": "TP減少軽減",
+        "Effect Name TL": "Reduce TP cost",
+        "Kyle": "◯",
+        "Loni": "◯",
+        "Judas": "◯",
+        "Reala": "◯",
+        "Nanaly": "◯",
+        "Harold": "◯",
+        "Summary": "TP cost is reduced by 4/8/12/16%"
+    },
+    {
+        "Effect Name": "詠唱加速",
+        "Effect Name TL": "Casting speed UP",
+        "Kyle": "◯",
+        "Loni": "◯",
+        "Judas": "◯",
+        "Reala": "◯",
+        "Nanaly": "◯",
+        "Harold": "◯",
+        "Summary": "Casting speed increases by 3/6/9/12%"
+    },
+    {
+        "Effect Name": "属性抵抗上昇",
+        "Effect Name TL": "Elemental Armor",
+        "Kyle": "◯",
+        "Loni": "◯",
+        "Judas": "◯",
+        "Reala": "◯",
+        "Nanaly": "◯",
+        "Harold": "◯",
+        "Summary": "Increases the resistance to an element by 6/9/12/15% for 8 seconds after using an arte with that elemental attribute. For Meteoric Rise, increases cast speed by the same amount instead"
+    },
+    {
+        "Effect Name": "リカバー",
+        "Effect Name TL": "Recover",
+        "Kyle": "",
+        "Loni": "◯",
+        "Judas": "",
+        "Reala": "◯",
+        "Nanaly": "",
+        "Harold": "◯",
+        "Summary": "Based on the enchant level, clears Poison/Weak/Paralysis/Slow and Freeze status effects, including previous level effects"
+    },
+    {
+        "Effect Name": "攻撃力-",
+        "Effect Name TL": "Shave ATK",
+        "Kyle": "",
+        "Loni": "◯",
+        "Judas": "",
+        "Reala": "",
+        "Nanaly": "",
+        "Harold": "",
+        "Summary": "50% chance of momentarily reducing foe ATK by 6/10/14/18%"
+    },
+    {
+        "Effect Name": "防御力-",
+        "Effect Name TL": "Shave DEF",
+        "Kyle": "◯",
+        "Loni": "",
+        "Judas": "◯",
+        "Reala": "",
+        "Nanaly": "◯",
+        "Harold": "",
+        "Summary": "75% chance of momentarily reducing foe DEF by 6/10/14/18%"
+    },
+    {
+        "Effect Name": "命中-",
+        "Effect Name TL": "Shave ACC",
+        "Kyle": "",
+        "Loni": "◯",
+        "Judas": "◯",
+        "Reala": "",
+        "Harold": "",
+        "Nanaly": "",
+        "Summary": "75% chance of momentarily reducing foe ACC by 6/10/14/18%"
+    },
+    {
+        "Effect Name": "回避力-",
+        "Effect Name TL": "Shave EVA",
+        "Kyle": "◯",
+        "Loni": "",
+        "Judas": "",
+        "Reala": "",
+        "Nanaly": "◯",
+        "Harold": "",
+        "Summary": "75% chance of momentarily reducing foe EVA by 6/10/14/18%"
+    },
+    {
+        "Effect Name": "SP-",
+        "Effect Name TL": "Shave SP",
+        "Kyle": "◯",
+        "Loni": "",
+        "Judas": "",
+        "Reala": "◯",
+        "Nanaly": "",
+        "Harold": "◯",
+        "Summary": "45% chance of momentarily reducing foe SP by 15/20/25/30%"
+    },
+    {
+        "Effect Name": "TP-",
+        "Effect Name TL": "Shave TP",
+        "Kyle": "◯",
+        "Loni": "",
+        "Judas": "",
+        "Reala": "",
+        "Nanaly": "◯",
+        "Harold": "",
+        "Summary": "35% chance of momentarily reducing foe TP by 12/16/20/24%"
+    },
+    {
+        "Effect Name": "硬直時間加算",
+        "Effect Name TL": "Spell Iron Stance",
+        "Kyle": "",
+        "Loni": "◯",
+        "Judas": "",
+        "Reala": "",
+        "Nanaly": "◯",
+        "Harold": "◯",
+        "Summary": "Adds 3/6/9/12 Frames of Iron stance"
+    },
+    {
+        "Effect Name": "毒効果",
+        "Effect Name TL": "Poison",
+        "Kyle": "",
+        "Loni": "",
+        "Judas": "◯",
+        "Reala": "",
+        "Nanaly": "",
+        "Harold": "",
+        "Summary": "9% chance of inflicing poison status effect, poison strength based on enchant level"
+    },
+    {
+        "Effect Name": "麻痺効果",
+        "Effect Name TL": "Paralysis",
+        "Kyle": "",
+        "Loni": "",
+        "Judas": "",
+        "Reala": "◯",
+        "Nanaly": "",
+        "Harold": "",
+        "Summary": "6% chance of inflicing paralysis status effect, paralysis strength based on enchant level"
+    },
+    {
+        "Effect Name": "凍結効果",
+        "Effect Name TL": "Freeze",
+        "Kyle": "",
+        "Loni": "",
+        "Judas": "",
+        "Reala": "◯",
+        "Nanaly": "",
+        "Harold": "◯",
+        "Summary": "4% chance of inflicing freeze status effect, freeze strength based on enchant level"
+    },
+    {
+        "Effect Name": "鈍足効果",
+        "Effect Name TL": "Slow",
+        "Kyle": "",
+        "Loni": "◯",
+        "Judas": "",
+        "Reala": "",
+        "Nanaly": "",
+        "Harold": "",
+        "Summary": "6% chance of inflicing slow status effect, slow strength based on enchant level"
+    },
+    {
+        "Effect Name": "ゲットアイテム",
+        "Effect Name TL": "Get item",
+        "Kyle": "",
+        "Loni": "",
+        "Judas": "◯",
+        "Reala": "",
+        "Nanaly": "",
+        "Harold": "◯",
+        "Summary": "Increses foe normal drop rate by 5/10/15/20% if the foe is finished by the arte set with this enchant"
+    }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "Effect name": "攻撃力アップ",
+    "Effect name TL": "ATK up",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "Increases damage by 4/8/12/16%, including extentions and mystics"
+  },
+  {
+    "Effect name": "命中率アップ",
+    "Effect name TL": "Accuracy UP",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "Increases Accuracy by 5/10/15/20"
+  },
+  {
+    "Effect name": "詠唱速度上昇",
+    "Effect name TL": "Casting Speed",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Temporarily increases casting speed by 10/18/26/34% for 780/840/900/960 Frames"
+  },
+  {
+    "Effect name": "SP減少軽減",
+    "Effect name TL": "SP cost Reduction",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "Decreases SP cost per frame during arte usage by 0.012/0.024/0.036/0.048"
+  },
+  {
+    "Effect name": "クリティカル",
+    "Effect name TL": "Crit UP",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "Arte critical value increases by 6.25/11.25/18.75/25%"
+  },
+  {
+    "Effect name": "耐性-",
+    "Effect name TL": "Shave RES",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "65% chance to temporarily decreases Foe's Elemental resistence by 6/9/12/15%. The reduced resistence is the character's strongest"
+  },
+  {
+    "Effect name": "知性-",
+    "Effect name TL": "Shave INT",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "",
+    "Summary": "55% chance to Temporarily Reduces foe's INT by 6/10/14/18%"
+  },
+  {
+    "Effect name": "詠唱速度-",
+    "Effect name TL": "Shave Cast Speed",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "",
+    "Summary": "55% change to temporarily reduce foe's cast speed by 10/18/26/34%"
+  },
+  {
+    "Effect name": "属性攻撃貫通",
+    "Effect name TL": "Ph. RES penetration",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Only your highest resistense applies when hiting with an elemental arte, by a number of hits equals to the enchant level"
+  },
+  {
+    "Effect name": "属性晶術貫通",
+    "Effect name TL": "M. Res penetration",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Only your highest resistense applies when hitting with an elemental spell, by a number of hits equals to the enchant level"
+  },
+  {
+    "Effect name": "瞬間完全回避",
+    "Effect name TL": "Ivunerabily",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": " Gives 4/6/8/10 I-Frames during arte usage"
+  },
+  {
+    "Effect name": "ブラスター",
+    "Effect name TL": "Blast",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "Increase spirits blast count by 2/4/6/8"
+  },
+  {
+    "Effect name": "アイテム強奪",
+    "Effect name TL": "Rob Item",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": "Increses the arte item steal rate by 62.5/75/87.5/100%"
+  }
+]

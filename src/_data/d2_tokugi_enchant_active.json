@@ -1,0 +1,145 @@
+[
+  {
+    "Effect Name": "ふっ飛ばし",
+    "Effect Name TL": "Throw away",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "",
+    "Summary": "Pressing circle while hitting the enemy throws it back right after.\n 42/40/38/36 SP cost"
+  },
+  {
+    "Effect Name": "背面取り",
+    "Effect Name TL": "Rear dash",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": "Pressing circle during the arte, within a certain distance, dashes behind the enemy. 20/18/16/14 SP cost"
+  },
+  {
+    "Effect Name": "ガードブレイク",
+    "Effect Name TL": "Guard Break",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Pressing circle while hitting a guarding enemy reduces enemy guard value by 8. 24/21/18/15 SP cost"
+  },
+  {
+    "Effect Name": "空中発動",
+    "Effect Name TL": "Aerial",
+    "Kyle": "◯",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Can execute the arte even in air, including extentions, 10/9/8/7 SP cost"
+  },
+  {
+    "Effect Name": "ガード発動",
+    "Effect Name TL": "Guard Counter",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "◯",
+    "Summary": "Able to execute the arte right after guarding an attack. 20/18/16/14 SP cost"
+  },
+  {
+    "Effect Name": "反撃発動",
+    "Effect Name TL": "Counter",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Able to execute the arte right after suffering damage. 50/47/44/41 SP cost"
+  },
+  {
+    "Effect Name": "攻撃後前進",
+    "Effect Name TL": "Front Step",
+    "Kyle": "",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "If pressing circle during the arte, does a front step right after. 10/9/8/7 SP cost"
+  },
+  {
+    "Effect Name": "攻撃後後退",
+    "Effect Name TL": "Back step",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "◯",
+    "Harold": "",
+    "Summary": "Pressing circle during the arte does a back step right after. 10/9/8/7 SP cost"
+  },
+  {
+    "Effect Name": "通常技連携",
+    "Effect Name TL": "Normals chain",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Becomes able to follow the arte with normal attacks by pressing circle during the arte. 33/29/25/21 SP cost"
+  },
+  {
+    "Effect Name": "特技連携",
+    "Effect Name TL": "Super chain",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "",
+    "Reala": "",
+    "Nanaly": "◯",
+    "Harold": "◯",
+    "Summary": "Able to chain the arte with a different arte, only once. 33/27/24/21 SP cost"
+  },
+  {
+    "Effect Name": "晶術追撃",
+    "Effect Name TL": "Magic follow-up",
+    "Kyle": "",
+    "Loni": "",
+    "Judas": "◯",
+    "Reala": "◯",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Very fast cast speed for a lower grade spell if used right after the spell. 80/76/72/68 SP cost"
+  },
+  {
+    "Effect Name": "追加特技",
+    "Effect Name TL": "Arte extention",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Pressing circle while hitting an enemy with the arte executes an extention arte. 18/16/14/12 SP cost. 5 TP cost"
+  },
+  {
+    "Effect Name": "秘奥義",
+    "Effect Name TL": "Mystic Arte",
+    "Kyle": "◯",
+    "Loni": "◯",
+    "Judas": "◯",
+    "Reala": "",
+    "Nanaly": "",
+    "Harold": "",
+    "Summary": "Pressing circle while *staggering* an enemy with the arte executes a mystic arte. 100/99/98/97 SP cost. 20 TP cost"
+  }
+]
