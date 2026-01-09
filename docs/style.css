@@ -1,0 +1,54 @@
+body {
+    margin: 0 25vh;
+    color: #fbfbfb;
+    background-color: #1f1f1f;
+}
+a {
+    color: #a4cefe;
+}
+a:visited {
+    color: #d8b8ff;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    margin: 0 0 5em;
+}
+td, th {
+    border: 1px solid #727272;
+}
+tr:nth-child(2n) {
+    background-color: #2e2e2e;
+}
+
+/* enchant table */
+th {
+    font-size: larger;
+}
+.enchant th, .enchant td {
+    padding: 0.2rem;
+}
+.enchant th:first-child, .enchant th:nth-child(2) {
+    min-width: 8rem;
+}
+.enchant th:last-child {
+    text-align: left;
+}
+
+/*navbar*/
+nav {
+    display: flex;
+}
+
+/*toc*/
+.toc {
+    border: 2px solid #fbfbfb;
+    width: fit-content;
+}
+.toc ol {
+    margin: 0;
+    padding: 5px 40px 5px 40px;
+}
