@@ -122,14 +122,14 @@
     },
     {
         "Effect Name": "硬直時間加算",
-        "Effect Name TL": "Spell Iron Stance",
+        "Effect Name TL": "Spell stagger",
         "Kyle": "",
         "Loni": "◯",
         "Judas": "",
         "Reala": "",
         "Nanaly": "◯",
         "Harold": "◯",
-        "Summary": "Adds 3/6/9/12 Frames of Iron stance"
+        "Summary": "The time the enemy can't act while being hit increases by 3/6/9/12 Frames"
     },
     {
         "Effect Name": "毒効果",
