@@ -8,7 +8,7 @@
     "Reala": "◯",
     "Nanaly": "◯",
     "Harold": "◯",
-    "Summary": "Increases damage by 4/8/12/16%, including extentions and mystics"
+    "Summary": "Increases damage by 4/8/12/16%, including extensions and mystics"
   },
   {
     "Effect name": "命中率アップ",
@@ -111,7 +111,7 @@
   },
   {
     "Effect name": "瞬間完全回避",
-    "Effect name TL": "Ivunerabily",
+    "Effect name TL": "Invulnerability",
     "Kyle": "",
     "Loni": "◯",
     "Judas": "",
