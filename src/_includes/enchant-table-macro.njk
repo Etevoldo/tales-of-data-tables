@@ -1,0 +1,27 @@
+{% macro enchantTable(id, title, dataSource) %}
+<h3 id="{{id}}">{{title}}</h2>
+<table class="enchant">
+  <tbody>
+    <tr>
+      <th>Effect Name</th>
+      <th>Effect Name TL</th>
+      <th>Ky</th>
+      <th>Lo</th>
+      <th>Ju</th>
+      <th>Re</th>
+      <th>Na</th>
+      <th>Ha</th>
+      <th>Summary</th>
+    </tr>
+    {% for enchant in dataSource %}
+      <tr>
+        {% for item, desc in enchant %}
+          <td>
+            {{desc}}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endmacro %}
