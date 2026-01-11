@@ -6,9 +6,9 @@ layout: layout.njk
 {% from 'enchant-table-macro.njk' import enchantTable as enchantTable %}
 
 <h2 id="Physical Artes">Physical artes enchants</h2>
-{{ enchantTable('Physical passives', 'Passives', d2_tokugi_enchant_passive) }}
-{{ enchantTable('Physical Actives', 'Actives', d2_tokugi_enchant_active) }}
+{{ enchantTable('Physical passives', 'Passives/アームド', d2.tokugi_enchant_passive) }}
+{{ enchantTable('Physical Actives', 'Actives/アクション', d2.tokugi_enchant_active) }}
 
 <h2 id="Spells">Spell enchants </h2>
-{{ enchantTable('Spell passives', 'Passives', d2_shoujutsu_enchant_passive) }}
-{{ enchantTable('Spell actives', 'Actives', d2_shoujutsu_enchant_active) }}
+{{ enchantTable('Spell passives', 'Passives/アームド', d2.shoujutsu_enchant_passive) }}
+{{ enchantTable('Spell actives', 'Actives/アクション', d2.shoujutsu_enchant_active) }}

@@ -3,7 +3,7 @@ Data from that I would normally need to use fandom or untranslated atwiki to rea
 
 # TODOs
 - [ ] Destiny 2
-    - [ ] active spell enchants
+    - [x] active spell enchants
     - [ ] artes
 - [ ] Xilia artes
 - [ ] Graces artes

@@ -1,0 +1,146 @@
+- Effect Name: ふっ飛ばし
+  Effect Name TL: Throw away
+  Kyle: ◯
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ◯
+  Harold: ''
+  Summary: ヒット時に「○押し続け」で敵を奥へふっ飛ばす SPを42/40/38/36消費
+  Summary TL: >-
+    Holding circle while hitting the enemy throws it back right after.
+    42/40/38/36 SP cost
+- Effect Name: 背面取り
+  Effect Name TL: Rear dash
+  Kyle: ◯
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ''
+  Harold: ◯
+  Summary: 「○押し続け」で一定距離内のターゲットの背後を取る SPを20/18/16/14消費
+  Summary TL: >-
+    Holding circle during the arte, within a certain distance, dashes behind
+    the enemy. 20/18/16/14 SP cost
+- Effect Name: ガードブレイク
+  Effect Name TL: Guard Break
+  Kyle: ''
+  Loni: ◯
+  Judas: ''
+  Reala: ◯
+  Nanaly: ''
+  Harold: ''
+  Summary: 敵ガード時に「○押し続け」でガード耐久値を8減少させる SPを24/21/18/15消費
+  Summary TL: >-
+    Holding circle while hitting a guarding enemy reduces enemy guard value by
+    8. 24/21/18/15 SP cost
+- Effect Name: 空中発動
+  Effect Name TL: Aerial
+  Kyle: ◯
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 空中にいるときでも特技を発動し、連携できる SPを10/9/8/7消費
+  Summary TL: 'Can execute the arte even in mid-air, including extensions, 10/9/8/7 SP cost'
+- Effect Name: ガード発動
+  Effect Name TL: Guard Counter
+  Kyle: ''
+  Loni: ''
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ''
+  Harold: ◯
+  Summary: 攻撃をガードした瞬間に特技を発動できる SPを20/18/16/14消費
+  Summary TL: Able to execute the arte right after guarding an attack. 20/18/16/14 SP cost
+- Effect Name: 反撃発動
+  Effect Name TL: Counter
+  Kyle: ''
+  Loni: ◯
+  Judas: ''
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: ダメージを受けた瞬間に特技を発動できる SPを50/47/44/41消費
+  Summary TL: Able to execute the arte right after suffering damage. 50/47/44/41 SP cost
+- Effect Name: 攻撃後前進
+  Effect Name TL: Front Step
+  Kyle: ''
+  Loni: ◯
+  Judas: ◯
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 「○押し続け」で特技後に前進ダッシュする SPを10/9/8/7消費
+  Summary TL: >-
+    Holding circle during the arte does a front step. 10/9/8/7
+    SP cost
+- Effect Name: 攻撃後後退
+  Effect Name TL: Back step
+  Kyle: ''
+  Loni: ''
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ''
+  Summary: 「○押し続け」で特技後に後退ダッシュする SPを10/9/8/7消費
+  Summary TL: >-
+    Holding circle during the arte does a back step. 10/9/8/7 SP
+    cost
+- Effect Name: 通常技連携
+  Effect Name TL: Normals chain
+  Kyle: ◯
+  Loni: ◯
+  Judas: ''
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 特技から開始した場合「○押し続け」で通常攻撃に連携可能 SPを33/29/25/21消費
+  Summary TL: >-
+    Becomes able to follow the arte with normal attacks by Holding circle during the arte. 33/29/25/21 SP cost
+- Effect Name: 特技連携
+  Effect Name TL: Super chain
+  Kyle: ''
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ◯
+  Harold: ◯
+  Summary: 特技中に他の特技を入力すると一度だけ連携可能 SPを30/27/24/21消費
+  Summary TL: 'Able to chain the arte with a different arte, only once. 33/27/24/21 SP cost'
+- Effect Name: 晶術追撃
+  Effect Name TL: Magic follow-up
+  Kyle: ''
+  Loni: ''
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ''
+  Harold: ''
+  Summary: 特技後に下級攻撃晶術を高速発動可能 SPを80/76/72/68消費
+  Summary TL: >-
+    Very fast cast speed if a low grade spell is used after.
+    80/76/72/68 SP cost
+- Effect Name: 追加特技
+  Effect Name TL: Arte extension
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 敵ヒット時「○押し続け」で追加特技を発動 SPを18/16/14/12消費、TPを5消費
+  Summary TL: >-
+    Holding Circle while hitting an enemy with executes an extension arte. 18/16/14/12 SP cost. 5 TP cost
+- Effect Name: 秘奥義
+  Effect Name TL: Mystic Arte
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 敵のけぞり時「○押し続け」で秘奥義を発動 SPを100/99/98/97消費、TPを20/19/18/17消費
+  Summary TL: >-
+    Holding circle while **staggering** an enemy with the arte executes a mystic
+    arte. 100/99/98/97 SP cost. 20 TP cost

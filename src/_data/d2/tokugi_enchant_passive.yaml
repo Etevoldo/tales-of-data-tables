@@ -1,0 +1,138 @@
+- Effect Name: 攻撃力アップ
+  Effect Name TL: ATK up
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ◯
+  Summary: 特技のダメージを4/8/12/16%上昇させる 派生する追加特技・秘奥義にも効果あり
+  Summary TL: 'Increases damage by 4/8/12/16%, including extensions and mystics'
+- Effect Name: 命中率アップ
+  Effect Name TL: Accuracy UP
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ◯
+  Summary: 特技の命中補正を5/10/15/20加算する
+  Summary TL: Increases Accuracy by 5/10/15/20
+- Effect Name: 詠唱速度上昇
+  Effect Name TL: Casting Speed
+  Kyle: ''
+  Loni: ''
+  Judas: ''
+  Reala: ◯
+  Nanaly: ''
+  Harold: ''
+  Summary: 780/840/900/960F間の詠唱速度を一定時間10/18/26/34%上昇
+  Summary TL: >-
+    Temporarily increases casting speed by 10/18/26/34% for 780/840/900/960
+    Frames
+- Effect Name: SP減少軽減
+  Effect Name TL: SP cost Reduction
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ◯
+  Summary: 特技中の1F当たりのSP消費を0.012/0.024/0.036/0.048軽減する
+  Summary TL: Decreases SP cost per frame during arte usage by 0.012/0.024/0.036/0.048
+- Effect Name: クリティカル
+  Effect Name TL: Crit UP
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ◯
+  Summary: 特技のクリティカル値を1.0625/1.125/1.1875/1.25倍する
+  Summary TL: Arte critical value increases by 6.25/11.25/18.75/25%
+- Effect Name: 耐性-
+  Effect Name TL: Shave RES
+  Kyle: ◯
+  Loni: ◯
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ◯
+  Summary: 65%の確率で敵の属性耐性を一定時間6/9/12/15%減少させる 減少する耐性はキャラそれぞれの得意属性に対応する
+  Summary TL: >-
+    65% chance to temporarily decreases Foe's Elemental resistence by
+    6/9/12/15%. The reduced resistence is the character's strongest
+- Effect Name: 知性-
+  Effect Name TL: Shave INT
+  Kyle: ''
+  Loni: ◯
+  Judas: ◯
+  Reala: ◯
+  Nanaly: ◯
+  Harold: ''
+  Summary: 55%の確率で敵の知性を一定時間6/10/14/18%減少させる
+  Summary TL: 55% chance to Temporarily Reduces foe's INT by 6/10/14/18%
+- Effect Name: 詠唱速度-
+  Effect Name TL: Shave Cast Speed
+  Kyle: ''
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ◯
+  Harold: ''
+  Summary: 55%の確率で敵の詠唱速度を一定時間10/18/26/34%減少させる
+  Summary TL: 55% change to temporarily reduce foe's cast speed by 10/18/26/34%
+- Effect Name: 属性攻撃貫通
+  Effect Name TL: Ph. RES penetration
+  Kyle: ◯
+  Loni: ''
+  Judas: ◯
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 最も耐性のある属性のみ、特技中属性攻撃をレベルと同じ回数耐えられる
+  Summary TL: >-
+    Only the highest resistense applies when hiting with an elemental arte, by a
+    number of hits equals to the enchant level
+- Effect Name: 属性晶術貫通
+  Effect Name TL: M. Res penetration
+  Kyle: ''
+  Loni: ◯
+  Judas: ◯
+  Reala: ''
+  Nanaly: ''
+  Harold: ''
+  Summary: 最も耐性のある属性のみ、特技中属性晶術をレベルと同じ回数耐えられる
+  Summary TL: >-
+    Only your highest resistense applies when hitting with an elemental spell,
+    by a number of hits equals to the enchant level
+- Effect Name: 瞬間完全回避
+  Effect Name TL: Invulnerability
+  Kyle: ''
+  Loni: ◯
+  Judas: ''
+  Reala: ◯
+  Nanaly: ''
+  Harold: ◯
+  Summary: 特技発動時4/6/8/10F間無敵になる
+  Summary TL: ' Gives 4/6/8/10 I-Frames during arte usage'
+- Effect Name: ブラスター
+  Effect Name TL: Blast
+  Kyle: ◯
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ◯
+  Harold: ◯
+  Summary: ブラスターカウントを2/4/6/8増加させる
+  Summary TL: Increase spirits blast count by 2/4/6/8
+- Effect Name: アイテム強奪
+  Effect Name TL: Rob Item
+  Kyle: ◯
+  Loni: ''
+  Judas: ''
+  Reala: ''
+  Nanaly: ''
+  Harold: ◯
+  Summary: 技ごとの基礎値×0.625/0.75/0.875/1の確率でアイテムを盗む
+  Summary TL: Increses the arte item steal rate by 62.5/75/87.5/100%

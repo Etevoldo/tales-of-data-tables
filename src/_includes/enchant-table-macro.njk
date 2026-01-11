@@ -4,7 +4,6 @@
   <tbody>
     <tr>
       <th>Effect Name</th>
-      <th>Effect Name TL</th>
       <th>Ky</th>
       <th>Lo</th>
       <th>Ju</th>
@@ -15,11 +14,18 @@
     </tr>
     {% for enchant in dataSource %}
       <tr>
-        {% for item, desc in enchant %}
-          <td>
-            {{desc}}
-          </td>
-        {% endfor %}
+        <td>
+          {{enchant["Effect Name"]}}<br>
+          "{{enchant["Effect Name TL"]}}"
+        </td>
+        <td>{{enchant.Kyle}}</td>
+        <td>{{enchant.Loni}}</td>
+        <td>{{enchant.Judas}}</td>
+        <td>{{enchant.Reala}}</td>
+        <td>{{enchant.Nanaly}}</td>
+        <td>{{enchant.Harold}}</td>
+        {# <td>{{enchant["Summary"]}}</td> #}
+      <td>{{enchant["Summary TL"]}}</td>
       </tr>
     {% endfor %}
   </tbody>

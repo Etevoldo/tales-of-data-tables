@@ -31,7 +31,7 @@ th {
 .enchant th, .enchant td {
     padding: 0.2rem;
 }
-.enchant th:first-child, .enchant th:nth-child(2) {
+.enchant th:first-child {
     min-width: 8rem;
 }
 .enchant th:last-child {
