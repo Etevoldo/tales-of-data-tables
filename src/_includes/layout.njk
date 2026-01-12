@@ -20,10 +20,12 @@
             <h1>{{ title | safe }}</h1>
         </header>
         <main>
-            <aside>
+            <div class="content-body">
+                {{ content | safe }}
+            </div>
+            <aside class="content-toc">
                 {{ content | toc | safe }}
             </aside>
-            {{ content | safe }}
         </main>
     </body>
 </html>
