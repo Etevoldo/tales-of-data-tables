@@ -7,7 +7,7 @@
   Nanaly: ◯
   Harold: ◯
   Summary: 特技のダメージを4/8/12/16%上昇させる 派生する追加特技・秘奥義にも効果あり
-  Summary TL: 'Increases damage by 4/8/12/16%, including extensions and mystics'
+  Summary TL: Increases damage by 4/8/12/16%, including extensions and mystics
 - Effect Name: 命中率アップ
   Effect Name TL: Accuracy UP
   Kyle: ◯
@@ -19,7 +19,7 @@
   Summary: 特技の命中補正を5/10/15/20加算する
   Summary TL: Increases Accuracy by 5/10/15/20
 - Effect Name: 詠唱速度上昇
-  Effect Name TL: Casting Speed
+  Effect Name TL: Casting Speed UP
   Kyle: ''
   Loni: ''
   Judas: ''
@@ -83,7 +83,7 @@
   Summary: 55%の確率で敵の詠唱速度を一定時間10/18/26/34%減少させる
   Summary TL: 55% change to temporarily reduce foe's cast speed by 10/18/26/34%
 - Effect Name: 属性攻撃貫通
-  Effect Name TL: Ph. RES penetration
+  Effect Name TL: Ignore elemental attacks
   Kyle: ◯
   Loni: ''
   Judas: ◯
@@ -92,10 +92,9 @@
   Harold: ''
   Summary: 最も耐性のある属性のみ、特技中属性攻撃をレベルと同じ回数耐えられる
   Summary TL: >-
-    Only the highest resistense applies when hiting with an elemental arte, by a
-    number of hits equals to the enchant level
+    You ignore hits received from elemental attacks during the arte, the number of hits ignored is the enchant level, provided that the attack hitting you has the elemental atribute of your highest resistence
 - Effect Name: 属性晶術貫通
-  Effect Name TL: M. Res penetration
+  Effect Name TL: Ignore elemental Magic
   Kyle: ''
   Loni: ◯
   Judas: ◯
@@ -104,8 +103,7 @@
   Harold: ''
   Summary: 最も耐性のある属性のみ、特技中属性晶術をレベルと同じ回数耐えられる
   Summary TL: >-
-    Only your highest resistense applies when hitting with an elemental spell,
-    by a number of hits equals to the enchant level
+    You ignore hits received from elemental spells during the arte, the number of hits ignored is the enchant level, provided that the spell hitting you has the elemental atribute of your highest resistence
 - Effect Name: 瞬間完全回避
   Effect Name TL: Invulnerability
   Kyle: ''
@@ -115,7 +113,7 @@
   Nanaly: ''
   Harold: ◯
   Summary: 特技発動時4/6/8/10F間無敵になる
-  Summary TL: ' Gives 4/6/8/10 I-Frames during arte usage'
+  Summary TL: Gives 4/6/8/10 I-Frames, starting when the arte is executed
 - Effect Name: ブラスター
   Effect Name TL: Blast
   Kyle: ◯
@@ -135,4 +133,4 @@
   Nanaly: ''
   Harold: ◯
   Summary: 技ごとの基礎値×0.625/0.75/0.875/1の確率でアイテムを盗む
-  Summary TL: Increses the arte item steal rate by 62.5/75/87.5/100%
+  Summary TL: Increases the arte's item steal rate by 62.5/75.0/87.5/100.0%

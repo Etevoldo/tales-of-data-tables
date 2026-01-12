@@ -25,7 +25,7 @@
         <td>{{enchant.Nanaly}}</td>
         <td>{{enchant.Harold}}</td>
         {# <td>{{enchant["Summary"]}}</td> #}
-      <td>{{enchant["Summary TL"]}}</td>
+      <td>{{enchant["Summary TL"] | markdown | safe }}</td>
       </tr>
     {% endfor %}
   </tbody>
