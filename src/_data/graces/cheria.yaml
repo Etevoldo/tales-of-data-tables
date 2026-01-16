@@ -1,0 +1,420 @@
+swift pitch:
+  Arte Name: Swift Pitch
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: Slash
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+  Description: the attack action changes based on the direction of the analog stick
+blessed blades:
+  Arte Name: Blessed Blades
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: Slash
+  Total Damage (%): "160"
+  Damage Multiplier (per hit): "0.80"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [077/080] Blessed Blades Adept, [078/081] Blessed Blades Master"
+  Req. for mastery: "Adept: 50, Master: 250"
+serpent tooth:
+  Arte Name: Serpent Tooth
+  Enabled Effects: "-"
+  Enemy Attributes: "Machine, Reptile"
+  Damage Type: "-"
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Un-believable Child, [011/011] Sympathetic Soul, [042/045] Combo
+    Fighter, [083/086] Serpent Tooth Adept, [084/087] Serpent Tooth Master
+  Req. for mastery: "Adept: 50, Master: 250"
+scathing harvest:
+  Arte Name: Scathing Harvest
+  Enabled Effects: "-"
+  Enemy Attributes: Plant
+  Damage Type: Slash
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.60"
+  Max Hits: "3"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] An Old Friend, Matured, [004/004] Radiant Healer, [083/086]
+    Serpent Tooth Adept, [085/087] Scathing Harvest Adept, [086/088] Scathing
+    Harvest Master
+  Req. for mastery: "Adept: 50, Master: 250"
+steel baptism:
+  Arte Name: Steel Baptism
+  Enabled Effects: "-"
+  Enemy Attributes: Human
+  Damage Type: Slash
+  Total Damage (%): "250"
+  Damage Multiplier (per hit): "0.83"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [079/082] Steel Baptism Adept, [080/083] Steel Baptism Master"
+  Req. for mastery: "Adept: 40, Master: 200"
+spectral purge:
+  Arte Name: Spectral Purge
+  Enabled Effects: Knockdown
+  Enemy Attributes: Spirit
+  Damage Type: Slash
+  Total Damage (%): "260"
+  Damage Multiplier (per hit): "0.65"
+  Max Hits: "4"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Battlefield Angel, [039/042] Critical Hitter, [085/088] Scathing
+    Harvest Adept, [087/090] Spectral Purge Adept, [088/091] Spectral Purge
+    Master
+  Description: knocks down only light enemies
+  Req. for mastery: "Adept: 40, Master: 200"
+thunder surge:
+  Arte Name: Thunder Surge
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Slash
+  Total Damage (%): "240"
+  Damage Multiplier (per hit): "0.30"
+  Max Hits: 8 (5~10)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] An Old Friend, Returned, [035/038] Stabber, [087/090] Spectral
+    Purge Adept, [089/091] Thunder Surge Adept, [090/093] Thunder Surge Master
+  Req. for mastery: "Adept: 40, Master: 200"
+majestic salvo:
+  Arte Name: Majestic Salvo
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: Slash
+  Total Damage (%): "330"
+  Damage Multiplier (per hit): "0.66"
+  Max Hits: 5 (4~5)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [081/084] Majestic Salvo Adept, [082/085] Majestic Salvo Master"
+  Req. for mastery: "Adept: 30, Master: 150"
+infinite wave:
+  Arte Name: Infinite Wave
+  Enabled Effects: "-"
+  Enemy Attributes: Inorganic
+  Damage Type: Slash
+  Total Damage (%): "370"
+  Damage Multiplier (per hit): "0.37"
+  Max Hits: "10"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Kind-Hearted, [069/072] Bargain Hunter, [089/092] Thunder Surge
+    Adept, [091/094] Infinity Wave Adept, [092/095] Infinity Wave Master
+  Req. for mastery: "Adept: 30, Master: 150"
+frozen rain:
+  Arte Name: Frozen Rain
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Freeze"
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "0.51"
+  Max Hits: "6"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [008/008] Embracer of Truth, [055/058] Mastery Queen, [091/094] Infinity
+    Wave Adept, [093/096] Frozen Rain Adept, [094/097] Frozen Rain Master
+  Description: >-
+    targets the enemy's position at the start of this arte regardless of its
+    location
+  Req. for mastery: "Adept: 30, Master: 150"
+soul brigade:
+  Arte Name: Soul Brigade
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: "Poison, Slow"
+  Total Damage (%): "320"
+  Damage Multiplier (per hit): "0.80"
+  Max Hits: 4 (4~12)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/021] Traveling Healer, [xxx/096] Frozen Rain Adept, [xxx/098] Soul
+    Brigade Adept, [xxx/099] Soul Brigade Master
+  Description: >-
+    after using any CC3 or CC4 Assault Arte, hold the Assault Artes button;
+    the spinning circle can hit up to 8 times if the target is close enough;
+    the ranged attack hits 4 times, and Cheria can move or attack before it
+    activates
+  Req. for mastery: "Adept: 30, Master: 150"
+pixie circle:
+  Arte Name: Pixie Circle
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "2.67"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [004/004] Radiant Healer, [021/024] Initiate of Arte & Blade, [095/100]
+    Pixie Circle Adept, [096/101] Pixie Circle Master, [118/123] Seraphic Bolt
+    Master
+  Description: >-
+    heals 20% of max HP to all allies within a small area that follows the
+    target; **Red Charge:** heals 25% of max HP to all allies within a small
+    area
+  Req. for mastery: "Adept: 40, Master: 320"
+healing circle:
+  Arte Name: Healing Circle
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "3.33"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [023/026] Devotee of Arte & Blade, [051/054] Rapid Retriever, [061/064]
+    Short-Order Cook, [097/102] Healing Circle Adept, [098/103] Healing Circle
+    Master
+  Description: >-
+    heals 30% of max HP to all allies within a small area; **Red Charge:**
+    heals 36% of max HP to all allies within a small area
+  Req. for mastery: "Adept: 40, Master: 320"
+fairy circle:
+  Arte Name: Fairy Circle
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "4.33"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/027] Maven of Arte & Blade, [033/036] Arte Authority, [099/104] Fairy
+    Circle Adept, [100/105] Fairy Circle Master, [121/126] Lightning Blast
+    Master
+  Description: >-
+    heals 40% of max HP to all allies within a moderate area; **Red Charge:**
+    heals 50% of max HP to all allies within a moderate area
+  Req. for mastery: "Adept: 35, Master: 280"
+nurse:
+  Arte Name: Nurse
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "8.00"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [014/014] Dutiful Daughter, [016/016] Alluring Temptress, [025/028] Ace of
+    Arte & Blade, [101/106] Nurse Adept, [102/107] Nurse Master
+  Description: >-
+    heals 44% of max HP to all allies; **Red Charge:** heals 52% of max HP to
+    all allies
+  Req. for mastery: "Adept: 30, Master: 240"
+revitalize:
+  Arte Name: Revitalize
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "6.67"
+  CC Cost: "7"
+  "Title Acquisition[Wii/PS3]": >-
+    [010/010] Dream Chaser, [018/018] Innocent Maiden, [063/066] Sous-Chef,
+    [103/108] Revitalize Adept, [104/109] Revitalize Master
+  Description: >-
+    heals 60% of max HP to all allies within a large area; **Red Charge:**
+    heals 75% of max HP to all allies within a large area
+  Req. for mastery: "Adept: 25, Master: 200"
+resurrection:
+  Arte Name: Resurrection
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "6.33"
+  CC Cost: "7"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/027] Maven of Arte & Blade, [066/069] Do-Gooder, [105/110]
+    Resurrection Adept, [106/111] Resurrection Master, [109/114] Recover Adept
+  Description: >-
+    revives all allies within a small range with 70% of max HP healed; **Red
+    Charge:** revives all allies within a small range with 87% of max HP
+    healed
+  Req. for mastery: "Adept: 25, Master: 200"
+remedy:
+  Arte Name: Remedy
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "1.50"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [011/011] Sympathetic Soul, [022/025] Student of Arte & Blade, [065/068]
+    Altruist, [097/102] Healing Circle Adept, [107/112] Remedy Adept,
+    [108/113] Remedy Master
+  Description: "cures Freeze, Petrify, Slow, and Seal for target member"
+  Req. for mastery: "Adept: 40, Master: 320"
+recover:
+  Arte Name: Recover
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "2.67"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [013/013] Only Child, [037/040] Priestess, [107/112] Remedy Adept,
+    [109/114] Recover Adept, [110/115] Recover Master
+  Description: cures all negative status ailments for target member
+  Req. for mastery: "Adept: 30, Master: 240"
+insight:
+  Arte Name: Insight
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "2.50"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [029/032] Flash Maiden, [061/064] Short-Order Cook, [111/116] Insight
+    Adept, [112/117] Insight Master, [117/122] Seraphic Bolt Adept
+  Description: >-
+    increases Accuracy of target member by 45% for 15 seconds; temporarily
+    increases target member's Critical Gauge charge rate
+  Req. for mastery: "Adept: 35, Master: 280"
+fleetfoot:
+  Arte Name: Fleetfoot
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "2.33"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [012/012] Good Samaritan, [057/060] Fashionista, [111/116] Insight Adept,
+    [113/118] Fleetfoot Adept, [114/119] Fleetfoot Master
+  Description: increases evasion of target member by 45% for 15 seconds
+  Req. for mastery: "Adept: 35, Master: 280"
+veil of faith:
+  Arte Name: Veil of Faith
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "3.00"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Kind-Hearted, [052/055] Spry Scavenger, [113/118] Fleetfoot
+    Adept, [115/120] Veil of Faith Adept, [116/121] Veil of Faith Master
+  Description: >-
+    reduces damage from Dragon and Fiend enemies by 25% for all allies for 27
+    seconds
+  Req. for mastery: "Adept: 35, Master: 280"
+seraphic bolt:
+  Arte Name: Seraphic Bolt
+  Enabled Effects: "-"
+  Enemy Attributes: "Aquatic, Nova, **Plant**"
+  Damage Type: "Paralysis, **Aerial**"
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "3.10"
+  Max Hits: "1"
+  Casting Time (seconds): "1.58"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] An Old Friend, Matured, [021/024] Initiate of Arte & Blade,
+    [032/035] Arte Apprentice, [117/122] Seraphic Bolt Adept, [118/123]
+    Seraphic Bolt Master
+  Req. for mastery: "Adept: 40, Master: 320"
+ethereal rift:
+  Arte Name: Ethereal Rift
+  Enabled Effects: Stand Up
+  Enemy Attributes: "Human, Fiend, Nova, **Reptile**, **Amorphous**"
+  Damage Type: "-"
+  Total Damage (%): "520"
+  Damage Multiplier (per hit): "1.30"
+  Max Hits: "4"
+  Casting Time (seconds): "3.17"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Battlefield Angel, [022/025] Student of Arte & Blade, [095/100]
+    Pixie Circle Adept, [119/124] Ethereal Rift Adept, [120/125] Ethereal Rift
+    Master
+  Req. for mastery: "Adept: 40, Master: 320"
+lightning blast:
+  Arte Name: Lightning Blast
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Nova, **Bird**, **Insect**"
+  Damage Type: Paralysis
+  Total Damage (%): "800"
+  Damage Multiplier (per hit): "1.44"
+  Max Hits: 7 (5~12)
+  Casting Time (seconds): "4.42"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Kind-Hearted, [023/026] Devotee of Arte & Blade, [043/046] Combo
+    Hunter, [121/126] Lightning Blast Adept, [122/127] Lightning Blast Master
+  Req. for mastery: "Adept: 35, Master: 280"
+divine saber:
+  Arte Name: Divine Saber
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Fiend, Nova, **Beast**, **Human**"
+  Damage Type: "-"
+  Total Damage (%): "1000"
+  Damage Multiplier (per hit): "0.83"
+  Max Hits: 12 (10~19)
+  Casting Time (seconds): "6.25"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [009/009] Enlightened Healer, [025/028] Ace of Arte & Blade, [044/047]
+    Combo Master, [123/128] Divine Saber Adept, [124/129] Divine Saber Master
+  Req. for mastery: "Adept: 30, Master: 240"
+virtuous radiance:
+  Arte Name: Virtuous Radiance
+  Enabled Effects: "-"
+  Enemy Attributes: "Dragon, Fiend, Nova, **Aquatic**, **Inorganic**"
+  Damage Type: "-"
+  Total Damage (%): "1400"
+  Damage Multiplier (per hit): "1.40"
+  Max Hits: 10 (8~12)
+  Casting Time (seconds): "6.67"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [027/030] Virtuoso of Arte & Blade, [034/037] Arte Artiste, [045/048]
+    Combo Queen, [125/130] Virtuous Radiance Adept, [126/131] Virtuous
+    Radiance Master
+  Req. for mastery: "Adept: 25, Master: 200"
+indignation:
+  Arte Name: Indignation
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Machine, Nova, **Dragon**, **Fiend**"
+  Damage Type: "-"
+  Total Damage (%): "1600"
+  Damage Multiplier (per hit): "16.00"
+  Max Hits: "1"
+  Casting Time (seconds): "8.33"
+  CC Cost: "7"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/022] Reader of Hearts, [xxx/128] Divine Saber Adept, [xxx/132]
+    Indignation Adept, [xxx/133] Indignation Master
+  Req. for mastery: "Adept: 25, Master: 200"

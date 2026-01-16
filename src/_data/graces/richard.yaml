@@ -1,0 +1,326 @@
+silver tongue:
+  Arte Name: Silver Tongue
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: Slash
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+  Description: the attack action changes based on the direction of the analog stick
+poor form:
+  Arte Name: Poor Form
+  Enabled Effects: "-"
+  Enemy Attributes: Human
+  Damage Type: Slash
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.60"
+  Max Hits: "3"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [059/069] Poor Form Adept, [070/070] Poor Form Master"
+  Description: ""
+  Req. for mastery: "Adept: 50, Master: 250"
+lightning blade:
+  Arte Name: Lightning Blade
+  Enabled Effects: Knockdown
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Paralysis"
+  Total Damage (%): "190"
+  Damage Multiplier (per hit): "0.95"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [001/001] Prince of Windor, [007/016] Student of Lordliness,
+    [048/057] Collector Kid, [065/075] Lightning Blade Adept, [066/076]
+    Lightning Blade Master
+  Description: knocks down small enemies
+  Req. for mastery: "Adept: 50, Master: 250"
+hurricane thrust:
+  Arte Name: Hurricane Thrust
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: Slash
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.60"
+  Max Hits: "3"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [002/002] Pact Maker, [007/015] Initiate of Lordliness, [014/023]
+    Flash Noble, [067/077] Hurricane Thrust Adept, [068/078] Hurricane Thrust
+    Master
+  Description: ""
+  Req. for mastery: "Adept: 50, Master: 250"
+harsh rebuttal:
+  Arte Name: Harsh Rebuttal
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Spirit"
+  Damage Type: Slash
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "0.51"
+  Max Hits: "6"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [061/071] Harsh Rebuttal Adept, [062/072] Harsh Rebuttal Master"
+  Description: ""
+  Req. for mastery: "Adept: 40, Master: 200"
+"sword rain: alpha":
+  Arte Name: "Sword Rain: Alpha"
+  Enabled Effects: "-"
+  Enemy Attributes: Plant
+  Damage Type: Slash
+  Total Damage (%): "260"
+  Damage Multiplier (per hit): "0.32"
+  Max Hits: "8"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [003/003] Benevolent Prince, [006/015] Initiate of Lordliness,
+    [028/036] Combo Hunter, [069/079] Sword Rain: Alpha Adept, [070/080] Sword
+    Rain: Alpha Master
+  Description: ""
+  Req. for mastery: "Adept: 40, Master: 200"
+severing wind:
+  Arte Name: Severing Wind
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: "Aerial, Slash"
+  Total Damage (%): "280"
+  Damage Multiplier (per hit): "0.46"
+  Max Hits: "6"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [004/004] Long-Lost Friend, [006/015] Initiate of Lordliness,
+    [028/036] Combo Fighter, [071/081] Severing Wind Adept, [072/082] Severing
+    Wind Master
+  Description: ""
+  Req. for mastery: "Adept: 40, Master: 200"
+unbridled scorn:
+  Arte Name: Unbridled Scorn
+  Enabled Effects: Knockdown
+  Enemy Attributes: Human
+  Damage Type: "Slash, Burn"
+  Total Damage (%): "350"
+  Damage Multiplier (per hit): "0.58"
+  Max Hits: "6"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [063/073] Unbridled Scorn Adept, [064/074] Unbridled Scorn Master"
+  Description: does not knock down heavy enemies
+  Req. for mastery: "Adept: 30, Master: 150"
+fiery beast:
+  Arte Name: Fiery Beast
+  Enabled Effects: "-"
+  Enemy Attributes: Beast
+  Damage Type: "Strike, Burn"
+  Total Damage (%): "370"
+  Damage Multiplier (per hit): "0.37"
+  Max Hits: "10"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/017] Devotee of Lordliness, [xxx/083] Fiery Beast Adept, [xxx/083]
+    Fiery Beast Master
+  Description: ""
+  Req. for mastery: "Adept: 30, Master: 150"
+rising phoenix:
+  Arte Name: Rising Phoenix
+  Enabled Effects: "-"
+  Enemy Attributes: "Bird, Nova"
+  Damage Type: Aerial
+  Total Damage (%): "390"
+  Damage Multiplier (per hit): "0.78"
+  Max Hits: "5"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/005] Belligerent Prince, [xxx/085] Rising Phoenix Adept, [xxx/086]
+    Rising Phoenix Master
+  Description: ""
+  Req. for mastery: "Adept: 30, Master: 150"
+moonlight circle (Richard):
+  Arte Name: Moonlight Circle
+  Enabled Effects: "-"
+  Enemy Attributes: Aquatic
+  Damage Type: "Slash, Slow"
+  Total Damage (%): "320"
+  Damage Multiplier (per hit): "0.64"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/009] Asbel's Friend, [xxx/087] Moonlight Circle Pupil, [xxx/088]
+    Moonlight Circle Student
+  Description: >-
+    after using any CC2 Assault Arte, continue to hold the Assault Artes
+    button
+  Req. for mastery: "Pupil: 40, Student: 200"
+double moon (Richard):
+  Arte Name: Double Moon
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Strike
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "0.62"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/010] Sophie's Friend, [xxx/089] Double Moon Pupil, [xxx/090] Double
+    Moon Student
+  Description: >-
+    after using any CC3 Assault Arte, continue to hold the Assault Artes
+    button
+  Req. for mastery: "Pupil: 40, Student: 200"
+soul reaper:
+  Arte Name: Soul Reaper
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Spirit, **Aquatic**"
+  Damage Type: "**Slow**"
+  Total Damage (%): "250"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "2"
+  Casting Time (seconds): "2.00"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [001/001] Prince of Windor, [017/026] Arte Apprentice, [041/050]
+    Prince, [073/091] Soul Reaper Adept, [074/092] Soul Reaper Master
+  Description: >-
+    steals HP from the targeted enemy and heals 10% of max HP; healing occurs
+    in two intervals of 5% of max HP each; the amount healed is increased
+    substantially at low health
+  Req. for mastery: "Adept: 40, Master: 320"
+sword deluge:
+  Arte Name: Sword Deluge
+  Enabled Effects: Knockdown
+  Enemy Attributes: Human
+  Damage Type: "Petrify, Slow, **Slash**, **Poison**"
+  Total Damage (%): "500"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: 5 (2~7)
+  Casting Time (seconds): "2.25"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [002/002] Pact Maker, [007/016] Student of Lordliness, [015/024]
+    Noble Knight, [075/093] Sword Deluge Adept, [076/094] Sword Deluge Master
+  Description: ""
+  Req. for mastery: "Adept: 40, Master: 320"
+shade imperial:
+  Arte Name: Shade Imperial
+  Enabled Effects: "?"
+  Enemy Attributes: "Human, Aquatic, **Nova**"
+  Damage Type: "Poison, **Impact**"
+  Total Damage (%): "750"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "6"
+  Casting Time (seconds): "3.00"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Belligerent Prince, [008/017] Devotee of Lordliness, [053/062]
+    National Budget Skimmer, [077/095] Shade Imperial Adept, [078/096] Shade
+    Imperial Master
+  Description: ""
+  Req. for mastery: "Adept: 35, Master: 280"
+vengeant fangs:
+  Arte Name: Vengeant Fangs
+  Enabled Effects: Stand Up
+  Enemy Attributes: "Insect, Reptile, Beast, **Dragon**"
+  Damage Type: "**Slash**"
+  Total Damage (%): "480"
+  Damage Multiplier (per hit): "2.40"
+  Max Hits: 2 (2~4)
+  Casting Time (seconds): "1.50"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Long-Lost Friend, [020/029] Thruster, [048/057] National Budget
+    Pincher, [065/075] Vengeant Fangs Adept, [066/076] Vengeant Fangs Master
+  Description: ""
+  Req. for mastery: "Adept: 40, Master: 320"
+antidote (Richard):
+  Arte Name: Antidote
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "1.00"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/011] Hubert's Friend, [xxx/099] Antidote Pupil, [xxx/100] Antidote
+    Student
+  Description: "cures Poison, Paralysis, Weak, and Burn for one ally"
+  Req. for mastery: "Pupil: 40, Student: 320"
+deathmire (Richard):
+  Arte Name: Deathmire
+  Enabled Effects: "?"
+  Enemy Attributes: "Insect, **Inorganic**, **Machine**"
+  Damage Type: Slow
+  Total Damage (%): "750"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "6"
+  Casting Time (seconds): "3.83"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/013] Malik's Friend, [xxx/103] Deathmire Pupil, [xxx/104] Deathmire
+    Student
+  Description: ""
+  Req. for mastery: "Pupil: 35, Student: 280"
+lightning blast (Richard):
+  Arte Name: Lightning Blast
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Nova, **Bird**, **Insect**"
+  Damage Type: Paralysis
+  Total Damage (%): "800"
+  Damage Multiplier (per hit): "1.14"
+  Max Hits: 7 (5~12)
+  Casting Time (seconds): "4.42"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/012] Cheria's Friend, [xxx/101] Lightning Blast Pupil, [xxx/102]
+    Lightning Blast Student
+  Description: ""
+  Req. for mastery: "Pupil: 35, Student: 280"
+infernal prison (Richard):
+  Arte Name: Infernal Prison
+  Enabled Effects: "-"
+  Enemy Attributes: "Fiend, **Bird**, **Plant**"
+  Damage Type: "Burn, Petrify"
+  Total Damage (%): "750"
+  Damage Multiplier (per hit): "1.50"
+  Max Hits: "5"
+  Casting Time (seconds): "4.67"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/014] Pascal's Friend, [xxx/105] Infernal Prison Pupil, [xxx/106]
+    Infernal Prison Student
+  Description: >-
+    unlike Pascal's version of Infernal Prison, Richard's Infernal Prison
+    centers its effect on the target
+  Req. for mastery: "Pupil: 35, Student: 280"
+holy lance:
+  Arte Name: Holy Lance
+  Enabled Effects: "?"
+  Enemy Attributes: "Spirit, Fiend, Nova"
+  Damage Type: "**Slash**, **Paralysis**"
+  Total Damage (%): "1400"
+  Damage Multiplier (per hit): "0.93"
+  Max Hits: "15"
+  Casting Time (seconds): "5.67"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/005] King of Windor, [xxx/038] Combo Master, [xxx/108] Holy Lance
+    Adept, [xxx/109] Holy Lance Master
+  Description: ""
+  Req. for mastery: "Adept: 30, Master: 240"
+shooting stars:
+  Arte Name: Shooting Stars
+  Enabled Effects: "-"
+  Enemy Attributes: "Fiend, Nova, **Dragon**"
+  Damage Type: "Aerial, **Shot**"
+  Total Damage (%): "1600"
+  Damage Multiplier (per hit): "1.77"
+  Max Hits: "9"
+  Casting Time (seconds): "8.33"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/007] Eradication Commander, [xxx/032] Prolific Emperor, [xxx/083]
+    Shooting Stars Adept, [xxx/083] Shooting Stars Master, [xxx/112] Burst
+    Emperor
+  Description: >-
+    pushes all enemies damaged by this attack toward the direction that the
+    stars shoot
+  Req. for mastery: "Adept: 25, Master: 200"

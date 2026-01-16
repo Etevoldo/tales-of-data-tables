@@ -1,0 +1,481 @@
+first blood:
+  Arte Name: First Blood
+  Enabled Effects: "-"
+  Description: >-
+    the attack action changes based on the direction of the analog stick, all
+    following attacks with the exception of Fourth Circle are centered around
+    the original position that First Blood strikes
+  Enemy Attributes: "-"
+  Damage Type: Slash
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+second wind:
+  Arte Name: Second Wind
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Aerial, Slash"
+  Total Damage (%): "190"
+  Damage Multiplier (per hit): "0.95"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [079/082] Second Wind Adept, [080/083] Second Wind Master"
+  Req. for mastery: "Adept: 50, Master: 250"
+rolling flare:
+  Arte Name: Rolling Flare
+  Enabled Effects: Knockdown
+  Description: can only knock down airborne enemies
+  Enemy Attributes: Plant
+  Damage Type: Slash
+  Total Damage (%): "210"
+  Damage Multiplier (per hit): "1.05"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Paragon of Knighthood, [021/024] Bladerang Initiate, [042/045]
+    Combo Fighter, [085/088] Rolling Flare Adept, [086/089] Rolling Flare
+    Master
+  Req. for mastery: "Adept: 50, Master: 250"
+darkness veil:
+  Arte Name: Darkness Veil
+  Enabled Effects: "-"
+  Enemy Attributes: Human
+  Damage Type: Slash
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [004/004] Prisoner of War, [022/025] Bladerang Student, [085/088] Rolling
+    Flare Adept, [087/090] Darkness Veil Adept, [088/091] Darkness Veil Master
+  Req. for mastery: "Adept: 50, Master: 250"
+third degree:
+  Arte Name: Third Degree
+  Enabled Effects: Knockdown
+  Description: does full damage to downed enemies instead of reduced damage
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Impact"
+  Total Damage (%): "300"
+  Damage Multiplier (per hit): "0.60"
+  Max Hits: 5 (5~6)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [081/084] Third Degree Adept, [082/085] Third Degree Master"
+  Req. for mastery: "Adept: 40, Master: 200"
+corruption claw:
+  Arte Name: Corruption Claw
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: Impact
+  Total Damage (%): "290"
+  Damage Multiplier (per hit): "0.96"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Genkyoukan, [023/026] Bladerang Devotee, [087/090] Darkness Veil
+    Adept, [089/092] Corruption Claw Adept, [090/093] Corruption Claw Master
+  Req. for mastery: "Adept: 40, Master: 200"
+magna resolver:
+  Arte Name: Magna Resolver
+  Enabled Effects: "-"
+  Enemy Attributes: Reptile
+  Damage Type: Impact
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "0.62"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] Erudite Fellow, [024/027] Bladerang Maven, [089/092] Corruption
+    Claw Adept, [092/095] Magna Resolver Adept, [093/096] Magna Resolver
+    Master
+  Req. for mastery: "Adept: 40, Master: 200"
+fourth circle:
+  Arte Name: Fourth Circle
+  Enabled Effects: Stand Up
+  Enemy Attributes: Fiend
+  Damage Type: Slash
+  Total Damage (%): "400"
+  Damage Multiplier (per hit): "0.66"
+  Max Hits: "8"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [083/086] Fourth Circle Adept, [084/087] Fourth Circle Master"
+  Req. for mastery: "Adept: 30, Master: 150"
+sonic mount:
+  Arte Name: Sonic Mount
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Poison"
+  Total Damage (%): "440"
+  Damage Multiplier (per hit): "0.55"
+  Max Hits: 8 (5~11)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Youthful Revolutionary, [025/028] Bladerang Ace, [091/094] Magna
+    Resolver Adept, [093/096] Sonic Mount Adept, [094/097] Sonic Mount Master
+  Req. for mastery: "Adept: 30, Master: 150"
+ground breaker:
+  Arte Name: Ground Breaker
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Impact, Slow"
+  Total Damage (%): "420"
+  Damage Multiplier (per hit): "0.70"
+  Max Hits: "6"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [008/008] Pensive Sage, [026/029] Bladerang Maestro, [093/096] Sonic Mount
+    Adept, [095/098] Ground Breaker Adept, [096/099] Ground Breaker Master
+  Req. for mastery: "Adept: 30, Master: 150"
+rock lance:
+  Arte Name: Rock Lance
+  Enabled Effects: "-"
+  Enemy Attributes: "**Inorganic**"
+  Damage Type: "Slash, Petrify, **Strike**"
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "1.03"
+  Max Hits: 3 (2~3)
+  Casting Time (seconds): "1.33"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Acquainted with Royalty, [005/005] Dismissed Captain, [021/024]
+    Bladerang Initiate, [097/100] Rock Lance Adept, [098/101] Rock Lance
+    Master
+  Req. for mastery: "Adept: 40, Master: 320"
+cluster raid:
+  Arte Name: Cluster Raid
+  Enabled Effects: "-"
+  Enemy Attributes: "**Spirit**"
+  Damage Type: "Strike, Petrify, **Impact**"
+  Total Damage (%): "570"
+  Damage Multiplier (per hit): "0.95"
+  Max Hits: "6"
+  Casting Time (seconds): "2.83"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [022/025] Bladerang Student, [030/033] Professional, [042/045] Combo
+    Fighter, [099/102] Cluster Raid Adept, [100/103] Cluster Raid Master
+  Req. for mastery: "Adept: 40, Master: 320"
+air pressure:
+  Arte Name: Air Pressure
+  Enabled Effects: "-"
+  Enemy Attributes: "Amorphous, **Bird**, **Machine**"
+  Damage Type: "Aerial, Impact"
+  Total Damage (%): "830"
+  Damage Multiplier (per hit): "1.03"
+  Max Hits: "8"
+  Casting Time (seconds): "4.00"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Youthful Revolutionary, [044/047] Combo Master, [062/065]
+    Explorer, [101/104] Air Pressure Adept, [102/105] Air Pressure Master
+  Req. for mastery: "Adept: 35, Master: 280"
+disruption:
+  Arte Name: Disruption
+  Enabled Effects: "-"
+  Description: pulls enemies towards the center of the spell effect
+  Enemy Attributes: "Inorganic, **Dragon**"
+  Damage Type: "Petrify, **Impact**"
+  Total Damage (%): "1100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "12"
+  Casting Time (seconds): "5.92"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [020/020] Eleth Mod, [025/028] Bladerang Student, [070/073] Time Waster,
+    [103/106] Disruption Adept, [104/107] Disruption Master
+  Req. for mastery: "Adept: 30, Master: 240"
+photon burst:
+  Arte Name: Photon Burst
+  Enabled Effects: "-"
+  Enemy Attributes: "Amorphous, **Beast**"
+  Damage Type: "Burn, **Impact**"
+  Total Damage (%): "350"
+  Damage Multiplier (per hit): "3.50"
+  Max Hits: "1"
+  Casting Time (seconds): "1.42"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Knight Academy Instructor, [011/011] Silver Hunk, [021/024]
+    Bladerang Initiate, [105/108] Photon Burst Adept, [106/109] Photon Burst
+    Master
+  Req. for mastery: "Adept: 40, Master: 320"
+burning strike:
+  Arte Name: Burning Strike
+  Enabled Effects: "-"
+  Enemy Attributes: "Plant, **Aquatic**"
+  Damage Type: "Burn, **Strike**"
+  Total Damage (%): "620"
+  Damage Multiplier (per hit): "1.03"
+  Max Hits: "6"
+  Casting Time (seconds): "3.00"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [023/026] Bladerang Devotee, [037/040] Sorcerer, [043/046] Combo Hunter,
+    [108/111] Burning Strike Adept, [109/112] Burning Strike Master
+  Req. for mastery: "Adept: 40, Master: 320"
+phantom flare:
+  Arte Name: Phantom Flare
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Spirit, Inorganic, **Fiend**"
+  Damage Type: "**Burn**"
+  Total Damage (%): "880"
+  Damage Multiplier (per hit): "2.20"
+  Max Hits: 4 (4~7)
+  Casting Time (seconds): "3.67"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [014/014] Barmaster Candidate, [033/036] Arte Authority, [055/058] Mastery
+    King, [109/112] Phantom Flare Adept, [110/113] Phantom Flare Master
+  Req. for mastery: "Adept: 35, Master: 280"
+blazing hearts:
+  Arte Name: Blazing Hearts
+  Enabled Effects: "-"
+  Enemy Attributes: "Plant, Fiend, **Spirit**"
+  Damage Type: "Burn, **Impact**"
+  Total Damage (%): "1200"
+  Damage Multiplier (per hit): "1.50"
+  Max Hits: "8"
+  Casting Time (seconds): "6.67"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [018/018] Model Soldier, [071/074] Time Traveller, [111/114] Blazing
+    Hearts Adept, [112/115] Blazing Hearts Master
+  Req. for mastery: "Adept: 30, Master: 240"
+cold front:
+  Arte Name: Cold Front
+  Enabled Effects: "-"
+  Enemy Attributes: Reptile
+  Damage Type: "Freeze, **Slash**, **Slow**"
+  Total Damage (%): "330"
+  Damage Multiplier (per hit): "1.65"
+  Max Hits: "2"
+  Casting Time (seconds): "1.25"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Paragon of Knighthood, [032/035] Arte Apprentice, [039/042]
+    Critical Hitter, [113/116] Cold Front Adept, [114/117] Cold Front Master
+  Req. for mastery: "Adept: 40, Master: 320"
+ice spires:
+  Arte Name: Ice Spires
+  Enabled Effects: "-"
+  Enemy Attributes: "**Reptile**"
+  Damage Type: "Shot, Freeze, **Slash**"
+  Total Damage (%): "600"
+  Damage Multiplier (per hit): "1.20"
+  Max Hits: "5"
+  Casting Time (seconds): "2.92"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] Erudite Fellow, [037/040] Sorcerer, [043/046] Combo Hunter,
+    [051/xxx] Rapid Retriever, [115/118] Ice Spires Adept, [116/119] Ice
+    Spires Master
+  Req. for mastery: "Adept: 40, Master: 320"
+glacial rain:
+  Arte Name: Glacial Rain
+  Enabled Effects: "-"
+  Enemy Attributes: "**Human**"
+  Damage Type: "Strike, Freeze, **Impact**"
+  Total Damage (%): "850"
+  Damage Multiplier (per hit): "1.41"
+  Max Hits: "6"
+  Casting Time (seconds): "4.17"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/027] Bladerang Maven, [052/055] Spry Scavenger, [078/081]
+    Environmental Minister, [117/120] Glacial Rain Adept, [118/121] Glacial
+    Rain Master
+  Req. for mastery: "Adept: 35, Master: 280"
+frigid coffin:
+  Arte Name: Frigid Coffin
+  Enabled Effects: "Knockdown, Stand Up"
+  Description: >-
+    the initial impact of the ice sword knocks down enemies, the following hit
+    forces downed enemies to stand
+  Enemy Attributes: Spirit
+  Damage Type: "Slash, Freeze, **Poison**, **Slow**"
+  Total Damage (%): "1100"
+  Damage Multiplier (per hit): "2.20"
+  Max Hits: "5"
+  Casting Time (seconds): "5.83"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [010/010] Watchful Steward, [017/017] Best Supporting Actor, [119/122]
+    Frigid Coffin Adept, [120/123] Frigid Coffin Master
+  Req. for mastery: "Adept: 30, Master: 240"
+spectral chains:
+  Arte Name: Spectral Chains
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, **Human**, **Fiend**"
+  Damage Type: Paralysis
+  Total Damage (%): "500"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "4"
+  Casting Time (seconds): "3.00"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [013/013] Imposing Figure, [066/069] Sophomore Mixer, [121/124] Spectral
+    Chains Adept, [122/125] Spectral Chains Master, [123/126] Deathmire Adept
+  Req. for mastery: "Adept: 40, Master: 320"
+deathmire:
+  Arte Name: Deathmire
+  Enabled Effects: "-"
+  Enemy Attributes: "Insect, **Inorganic**, **Machine**"
+  Damage Type: Slow
+  Total Damage (%): "750"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "6"
+  Casting Time (seconds): "3.83"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [057/060] Duke, [069/072] Time Spender, [099/102] Cluster Raid Adept,
+    [123/126] Deathmire Adept, [124/127] Deathmire Master
+  Req. for mastery: "Adept: 35, Master: 280"
+culling flare:
+  Arte Name: Culling Flare
+  Enabled Effects: "-"
+  Description: pulls enemies towards the center of the spell effect
+  Enemy Attributes: "Human, Nova"
+  Damage Type: "**Slash**, **Paralysis**"
+  Total Damage (%): "1300"
+  Damage Multiplier (per hit): "0.81"
+  Max Hits: "16"
+  Casting Time (seconds): "5.50"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [009/009] Enlightened Bladeranger, [027/030] Bladerang Virtuoso, [125/128]
+    Culling Flare Adept, [126/129] Culling Flare Master
+  Req. for mastery: "Adept: 30, Master: 240"
+dragon slayer:
+  Arte Name: Dragon Slayer
+  Enabled Effects: "-"
+  Enemy Attributes: "Reptile, Dragon, Nova, **Bird**"
+  Damage Type: "**Shot**"
+  Total Damage (%): "1600"
+  Damage Multiplier (per hit): "1.45"
+  Max Hits: 11 (3~11)
+  Casting Time (seconds): "7.17"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [027/030] Bladerang Virtuoso, [056/059] Mastery God, [068/071] Senior
+    Mixer, [127/130] Dragon Slayer Adept, [128/131] Dragon Slayer Master
+  Req. for mastery: "Adept: 25, Master: 200"
+eleth flare:
+  Arte Name: Eleth Flare
+  Enabled Effects: Knockdown
+  Enemy Attributes: "**Nova**"
+  Damage Type: "Poison, Freeze, Burn, **Shot**"
+  Total Damage (%): "1000"
+  Damage Multiplier (per hit): "1.11"
+  Max Hits: "9"
+  Casting Time (seconds): "6.50"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/021] Special Attache, [xxx/098] Ground Breaker Adept, [xxx/132] Eleth
+    Flare Adept, [xxx/133] Eleth Flare Master
+  Req. for mastery: "Adept: 30, Master: 240"
+last resort:
+  Arte Name: Last Resort
+  Enabled Effects: "-"
+  Description: >-
+    performs 1 hit when at or above 50% of max HP, hits increases to 2 when
+    between 25% and 50% of max HP,  hits increases to 4 when below 25% of max
+    HP
+  Enemy Attributes: "Beast, Machine, Nova"
+  Damage Type: "**Impact**, **Petrify**"
+  Total Damage (%): 600~2400
+  Damage Multiplier (per hit): "6.00"
+  Max Hits: 1~4
+  Casting Time (seconds): "5.83"
+  CC Cost: "7"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/041] Prolific Sorcerer, [xxx/134] Last Resort Adept, [xxx/135] Last
+    Resort Master
+  Req. for mastery: "Adept: 25, Master: 200"
+calamity rondo:
+  Arte Name: Calamity Rondo
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Burn"
+  Total Damage (%): "2000"
+  Damage Multiplier (per hit): "5.00"
+  Max Hits: "4"
+  "Title Acquisition[Wii/PS3]": "[004/004] Prisoner of War, [058/061] Handsome Duke (Combo Activation)"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 1;
+    create a combo of 25 hits or more
+blistering waltz:
+  Arte Name: Blistering Waltz
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Burn"
+  Total Damage (%): "3500"
+  Damage Multiplier (per hit): "3.88"
+  Max Hits: "9"
+  "Title Acquisition[Wii/PS3]": "[008/008] Pensive Sage, [027/030] Bladerang Virtuoso (Combo Activation)"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 2;
+    create a combo of 50 hits or more
+eternal serenade:
+  Arte Name: Eternal Serenade
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Freeze, Burn"
+  Total Damage (%): "5000"
+  Damage Multiplier (per hit): "2.77"
+  Max Hits: "18"
+  "Title Acquisition[Wii/PS3]": "[016/016] Unable to Die, [056/059] Mastery God (Combo Activation)"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 3;
+    create a combo of 75 hits or more
+malik beam:
+  Arte Name: Malik Beam
+  Enabled Effects: "-"
+  Enemy Attributes: "Fiend, Nova"
+  Damage Type: "-"
+  Total Damage (%): "?"
+  Damage Multiplier (per hit): "?"
+  Max Hits: "1"
+  "Title Acquisition[Wii/PS3]": ""
+  Description: >-
+    [xxx/096] Sonic Mount Adept title must be obtained; Eleth Burst must be
+    active; the Eleth Gauge must be filled to at least Level 1; press L1 after
+    using Sonic Mount; consumes only one level of the Eleth Gauge
+tremorous celestial sundering shredding light of cyclonic butchery:
+  Arte Name: Tremorous Celestial Sundering Shredding Light of Cyclonic Butchery
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Freeze, Burn"
+  Total Damage (%): "?"
+  Damage Multiplier (per hit): "?"
+  Max Hits: "21"
+  "Title Acquisition[Wii/PS3]": "[xxx/023] Retracer of Paths"
+  Requirements: press L1 during 100% Accelerate Mode
+shinten rekkuu zankou senpuu messai shinbatsu kassatsugeki:
+  Arte Name: Tremorous Celestial Sundering Shredding Light of Cyclonic Butchery
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Freeze, Burn"
+  Total Damage (%): "?"
+  Damage Multiplier (per hit): "?"
+  Max Hits: "21"
+  "Title Acquisition[Wii/PS3]": "[xxx/023] Retracer of Paths"
+  Requirements: press L1 during 100% Accelerate Mode
+blue earth:
+  Arte Name: Blue Earth
+  Enabled Effects: "-"
+  Enemy Attributes: "?"
+  Damage Type: "?"
+  Total Damage (%): "30000"
+  Damage Multiplier (per hit): "30.00"
+  Max Hits: "1"
+  "Title Acquisition[Wii/PS3]": ""
+  Requirements: >-
+    after being targeted by the final boss of "Lineages & Legacies" and
+    attacked with Dual the Sol: hold ← + O during Dual the Sol to activate
+    Aquarius Sphere; hold X during Aquarius Sphere to activate Prism Stars;
+    hold Triangle during Prism Stars to activate Shining Gate; hold Square
+    during Shining Gate to activate Nova Explosion; hold Triangle + O during
+    Nova Explosion to activate Maxwell Minimus; hold Square + O + X during
+    Maxwell Minimus to activate Dimensional Material; hold Triangle + Square +
+    O + X during Dimensional Material to activate Blue Earth

@@ -1,0 +1,538 @@
+strike:
+  Arte Name: Strike
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: Strike
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": event
+  Description: >-
+    Activated by pressing the Assault Artes button while the Burst Artes style
+    is active. If Asbel is within melee distance of the target, he will
+    perform a slow attack that sheathes his blade. If Asbel is further away,
+    he will not attack but simply sheathe his blade in a quick motion. Returns
+    sword to sheathed state to allow Asbel to chain into Assault Artes. Heals
+    a small amount of HP to self based on physical defense and the number of
+    artes chained together while Asbel was in Burst Artes style.
+quick slash:
+  Arte Name: Quick Slash
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: Strike
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+  Description: The attack action changes based on the direction of the analog stick
+nimble fang:
+  Arte Name: Nimble Fang
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: Strike
+  Total Damage (%): "180, 190"
+  Damage Multiplier (per hit): "0.60, 0.63"
+  Max Hits: "3"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [084/087] Nimble Fang Adept, [085/088] Nimble Fang Master"
+  Req. for mastery: "Adept: 90, Master: 450"
+stagger strike:
+  Arte Name: Stagger Strike
+  Enabled Effects: "-"
+  Enemy Attributes: Amorphous
+  Damage Type: Strike
+  Total Damage (%): "170, 180"
+  Damage Multiplier (per hit): "0.85, 0.90"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Lord's Heir, [012/012] Teacher's Pet, [043/046] Combo Fighter,
+    [090/093] Stagger Strike Adept, [091/094] Stagger Strike Master
+  Req. for mastery: "Adept: 90, Master: 450"
+wing crush:
+  Arte Name: Wing Crush
+  Enabled Effects: "-"
+  Enemy Attributes: Insect
+  Damage Type: "Aerial, Strike"
+  Total Damage (%): "210, 220"
+  Damage Multiplier (per hit): "2.10, 2.20"
+  Max Hits: "1"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Little Rascal, [030/033] Flash Swordsman, [033/036] Arte
+    Apprentice, [092/095] Wing Crush Adept, [093/096] Wing Crush Master
+  Req. for mastery: "Adept: 90, Master: 450"
+gush stroke:
+  Arte Name: Gush Stroke
+  Enabled Effects: "-"
+  Enemy Attributes: "Aquatic, Fiend"
+  Damage Type: Strike
+  Total Damage (%): "190, 200"
+  Damage Multiplier (per hit): "0.95, 1.00"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [023/026] Student of the Sword, [036/039] Fighter, [063/066] Battle-Tested
+    Grunt, [094/097] Gush Stroke Adept, [095/098] Gush Stroke Master
+  Req. for mastery: "Adept: 90, Master: 450"
+dual impact:
+  Arte Name: Dual Impact
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Strike, Impact"
+  Total Damage (%): "250, 270"
+  Damage Multiplier (per hit): "0.83, 0.90"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [086/089] Dual Impact Adept, [087/090] Dual Impact Master"
+  Req. for mastery: "Adept: 80, Master: 400"
+bestial roar:
+  Arte Name: Bestial Roar
+  Enabled Effects: Knockdown (light enemies only)
+  Enemy Attributes: Beast
+  Damage Type: Impact
+  Total Damage (%): "270, 290"
+  Damage Multiplier (per hit): "0.67, 0.72"
+  Max Hits: "4"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [040/043] Critical Hitter, [091/094] Stagger Strike Master, [096/099]
+    Bestial Roar Adept, [097/100] Bestial Roar Master, [108/115] Lightning
+    Strike Adept
+  Description: Does not knock down heavy enemies
+  Req. for mastery: "Adept: 80, Master: 400"
+wolfwind fang:
+  Arte Name: Wolfwind Fang
+  Enabled Effects: "-"
+  Enemy Attributes: "Reptile, Beast"
+  Damage Type: Slash
+  Total Damage (%): "230, 240"
+  Damage Multiplier (per hit): "0.38, 0.40"
+  Max Hits: "6"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [004/004] Aspiring Knight, [022/025] Initiate of the Sword, [033/036] Arte
+    Apprentice, [098/101] Wolfwind Fang Adept, [099/102] Wolfwind Fang Master
+  Req. for mastery: "Adept: 80, Master: 400"
+phantom pulse:
+  Arte Name: Phantom Pulse
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Spirit"
+  Damage Type: "-"
+  Total Damage (%): "240, 260"
+  Damage Multiplier (per hit): "0.40, 0.43"
+  Max Hits: 6 (5~6)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [038/041] Fencer, [044/047] Combo Hunter, [063/066] Battle-Tested Grunt,
+    [100/103] Phantom Pulse Adept, [101/104] Phantom Pulse Master
+  Req. for mastery: "Adept: 80, Master: 400"
+burial blade:
+  Arte Name: Burial Blade
+  Enabled Effects: Knockdown
+  Enemy Attributes: Nova
+  Damage Type: "Slash, Petrify"
+  Total Damage (%): "350, 360"
+  Damage Multiplier (per hit): "3.50, 3.60"
+  Max Hits: "1"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [088/091] Burial Blade Adept, [089/092] Burial Blade Master"
+  Req. for mastery: "Adept: 70, Master: 350"
+dragon charge:
+  Arte Name: Dragon Charge
+  Enabled Effects: Stand Up
+  Enemy Attributes: Dragon
+  Damage Type: Slash
+  Total Damage (%): "320, 350"
+  Damage Multiplier (per hit): "0.64, 0.70"
+  Max Hits: "5"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [014/014] Son of a Hero, [015/015] Expert Scrubber, [024/027] Devotee of
+    the Sword, [102/105] Dragon Charge Adept, [103/106] Dragon Charge Master
+  Req. for mastery: "Adept: 70, Master: 350"
+heaven's wrath:
+  Arte Name: Heaven's Wrath
+  Enabled Effects: "-"
+  Enemy Attributes: Human
+  Damage Type: "Strike, Poison"
+  Total Damage (%): "370, 390"
+  Damage Multiplier (per hit): "0.37, 0.43"
+  Max Hits: "10"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [020/020] Vest-Dressed, [034/037] Arte Authority, [104/107] Heaven's Wrath
+    Adept, [105/108] Heaven's Wrath Master, [126/133] Abyssal Seal Adept
+  Req. for mastery: "Adept: 70, Master: 350"
+void sword:
+  Arte Name: Void Sword
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: "Aerial, Slash"
+  Total Damage (%): "370, 330"
+  Damage Multiplier (per hit): "0.33, 0.36"
+  Max Hits: 11 (6~11)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [037/040] Prolific Fighter, [045/048] Combo Master, [072/075] Skilled
+    Artisan, [106/109] Void Sword Adept, [107/110] Void Sword Master
+  Req. for mastery: "Adept: 70, Master: 350"
+demon fist:
+  Arte Name: Demon Fist
+  Enabled Effects: "-"
+  Enemy Attributes: "Inorganic, Fiend"
+  Damage Type: Impact
+  Total Damage (%): "230"
+  Damage Multiplier (per hit): "2.30"
+  Max Hits: "1"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/022] Lord of Lhant, [xxx/111] Demon Fist Adept, [xxx/112] Demon Fist
+    Master, [xxx/117] Demon Fang Adept
+  Description: >-
+    After using any CC2 Assault Arte, continue to hold the Assault Artes
+    button. Gush Stroke brings Asbel out of range to hit with Demon Fist under
+    normal circumstances.
+  Req. for mastery: "Adept: 90, Master: 450"
+icedragon flurry:
+  Arte Name: Icedragon Flurry
+  Enabled Effects: "-"
+  Enemy Attributes: Dragon
+  Damage Type: "Aerial, Freeze"
+  Total Damage (%): "300"
+  Damage Multiplier (per hit): "0.60"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/022] Lord of Lhant, [xxx/089] Dual Impact Adept, [xxx/113] Icedragon
+    Flurry Adept, [xxx/114] Icedragon Flurry Master
+  Description: >-
+    After using any CC3 Assault Arte, continue to hold the Assault Artes
+    button. Bestial Roar will usually knock down monsters too far for
+    Icedragon Flurry to connect.
+  Req. for mastery: "Adept: 80, Master: 400"
+draw:
+  Arte Name: Draw
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": event
+  Description: >-
+    Activated by pressing the Burst Artes button while the Assault Artes style
+    is active. Provides Iron Stance, which prevents stagger for a single hit.
+    The Penetrate skill can increase the amount of Iron Stance stacks up to
+    four hits.
+lightning strike:
+  Arte Name: Lightning Strike
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Slash
+  Total Damage (%): "220, 210"
+  Damage Multiplier (per hit): "1.10, 1.05"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    event, [005/005] Wielder of the Light, [013/013] Knightmare, [031/034]
+    Slayer, [108/115] Lightning Strike Adept, [109/116] Lightning Strike
+    Master
+  Req. for mastery: "Adept: 100, Master: 800"
+demon fang:
+  Arte Name: Demon Fang
+  Enabled Effects: "-"
+  Enemy Attributes: "Inorganic, Fiend"
+  Damage Type: Slash
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: 2 (1~2)
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Little Rascal, [022/025] Initiate of the Sword, [043/046] Combo
+    Fighter, [110/117] Demon Fang Adept, [110/xxx] Demon Fang Adept, [111/118]
+    Demon Fang Master
+  Description: >-
+    Altered arte removed in the PlayStation 3 version; the level 5 mastery
+    skill is replaced with a mastery skill for Demon Fist
+  Req. for mastery: "Adept: 100, Master: 800"
+shockwave slash:
+  Arte Name: Shockwave Slash
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Impact"
+  Total Damage (%): "210, 200"
+  Damage Multiplier (per hit): "1.05, 1.00"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Lord's Heir, [012/012] Teacher's Pet, [022/025] Initiate of the
+    Sword, [112/119] Shockwave Slash Adept, [113/120] Shockwave Slash Master
+  Req. for mastery: "Adept: 100, Master: 800"
+frost breaker:
+  Arte Name: Frost Breaker
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Freeze"
+  Total Damage (%): "230, 220"
+  Damage Multiplier (per hit): "1.15, 1.10"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] Sword of the King, [023/026] Student of the Sword, [030/033]
+    Flash Swordsman, [114/121] Frost Breaker Adept, [115/122] Frost Breaker
+    Master
+  Req. for mastery: "Adept: 100, Master: 800"
+moonlight circle:
+  Arte Name: Moonlight Circle
+  Enabled Effects: "-"
+  Enemy Attributes: Aquatic
+  Damage Type: "Slash, Slow"
+  Total Damage (%): "320, 310"
+  Damage Multiplier (per hit): "0.64, 0.62"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Brother's Keeper, [044/047] Combo Hunter, [109/116] Lightning
+    Strike Master, [116/123] Moonlight Circle Adept, [117/124] Moonlight
+    Circle Master
+  Req. for mastery: "Adept: 100, Master: 800"
+ruinous bloom:
+  Arte Name: Ruinous Bloom
+  Enabled Effects: "-"
+  Enemy Attributes: Plant
+  Damage Type: Impact
+  Total Damage (%): "300, 290"
+  Damage Multiplier (per hit): "1.00, 0.96"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Brother's Keeper, [024/027] Devotee of the Sword, [096/099]
+    Bestial Roar Adept, [118/125] Ruinous Bloom Adept, [119/126] Ruinous Bloom
+    Master
+  Req. for mastery: "Adept: 100, Master: 800"
+phantasm flash:
+  Arte Name: Phantasm Flash
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Nova"
+  Damage Type: Slash
+  Total Damage (%): "330, 300"
+  Damage Multiplier (per hit): "1.10, 1.00"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/027] Devotee of the Sword, [044/047] Combo Fighter, [064/067]
+    Battle-Seasoned Leader, [120/127] Phantasm Flash Adept, [121/128] Phantasm
+    Flash Master
+  Req. for mastery: "Adept: 100, Master: 800"
+concussive bolt:
+  Arte Name: Concussive Bolt
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Shot, Paralysis"
+  Total Damage (%): "340, 330"
+  Damage Multiplier (per hit): "1.13, 1.10"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [013/013] Knightmare, [064/067] Battle-Seasoned Leader, [118/125] Ruinous
+    Bloom Adept, [122/129] Concussive Bolt Adept, [123/130] Concussive Bolt
+    Master
+  Req. for mastery: "Adept: 100, Master: 800"
+gale maw:
+  Arte Name: Gale Maw
+  Enabled Effects: "-"
+  Enemy Attributes: Reptile
+  Damage Type: "Shot, Poison"
+  Total Damage (%): "350, 310"
+  Damage Multiplier (per hit): "3.50, 3.10"
+  Max Hits: "1"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [015/015] Expert Scrubber, [025/028] Maven of the Sword, [034/037] Arte
+    Authority, [124/131] Gale Maw Adept, [125/132] Gale Maw Master
+  Req. for mastery: "Adept: 100, Master: 800"
+abyssal seal:
+  Arte Name: Abyssal Seal
+  Enabled Effects: Knockdown
+  Enemy Attributes: Fiend
+  Damage Type: "Slash, Slow"
+  Total Damage (%): "430, 440"
+  Damage Multiplier (per hit): "0.71, 0.73"
+  Max Hits: "6"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [009/009] Host to the Light, [025/028] Maven of the Sword, [119/126]
+    Ruinous Bloom Master, [126/133] Abyssal Seal Adept, [127/134] Abyssal Seal
+    Master
+  Req. for mastery: "Adept: 90, Master: 720"
+infernal torrent:
+  Arte Name: Infernal Torrent
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Fiend"
+  Damage Type: Burn
+  Total Damage (%): "440, 420"
+  Damage Multiplier (per hit): "0.88, 0.84"
+  Max Hits: "5"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [016/016] Inheritor of Excalibur, [026/029] Ace of the Sword, [059/062]
+    Handsome Paragon, [128/135] Infernal Torrent Adept, [129/136] Infernal
+    Torrent Master
+  Req. for mastery: "Adept: 90, Master: 720"
+plasma shock:
+  Arte Name: Plasma Shock
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Aerial, Paralysis"
+  Total Damage (%): "450, 440"
+  Damage Multiplier (per hit): "0.56, 0.55"
+  Max Hits: "8"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [008/008] Friend to the End, [026/029] Ace of the Sword, [032/035]
+    Berserker, [130/137] Plasma Shock Adept, [131/138] Plasma Shock Master
+  Req. for mastery: "Adept: 90, Master: 720"
+sparrow seal:
+  Arte Name: Sparrow Seal
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: "Strike, Slash"
+  Total Damage (%): "400, 450"
+  Damage Multiplier (per hit): "1.33, 1.50"
+  Max Hits: "3"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [010/010] Enlightened Swordsman, [027/030] Maestro of the Sword, [132/139]
+    Sparrow Seal Adept, [133/140] Sparrow Seal Master, [134/141] Diabolic Rage
+    Adept
+  Description: Returns sword to sheathed state to allow Asbel to chain into assault artes
+  Req. for mastery: "Adept: 90, Master: 720"
+diabolic rage:
+  Arte Name: Diabolic Rage
+  Enabled Effects: "-"
+  Enemy Attributes: Fiend
+  Damage Type: "Slash, Impact"
+  Total Damage (%): "470, 430"
+  Damage Multiplier (per hit): "0.94, 0.86"
+  Max Hits: "5"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [028/031] Virtuoso of the Sword, [035/038] Arte Artiste, [046/049] Combo
+    Kaiser, [134/141] Diabolic Rage Adept, [135/142] Diabolic Rage Master
+  Req. for mastery: "Adept: 90, Master: 720"
+incineration wave:
+  Arte Name: Incineration Wave
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Nova"
+  Damage Type: Burn
+  Total Damage (%): "750, 500"
+  Damage Multiplier (per hit): "1.25, 1.25"
+  Max Hits: "6 (4~13), 4 (4~13)"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [027/030] Maestro of the Sword, [039/042] Prolific Fencer, [135/142]
+    Diabolic Rage Master, [136/143] Incineration Wave Adept, [137/144]
+    Incineration Wave Master
+  Description: >-
+    If used twice consecutively, Asbel will dash towards the enemy with an
+    upper cut
+  Req. for mastery: "Adept: 80, Master: 640"
+aurora lotus:
+  Arte Name: Aurora Lotus
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Spirit, Nova"
+  Damage Type: "-"
+  Total Damage (%): "500, 600"
+  Damage Multiplier (per hit): "0.41, 0.50"
+  Max Hits: "12"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [028/031] Virtuoso of the Sword, [066/069] Battle-Master Sovereign,
+    [073/076] Master Artisan, [138/145] Aurora Lotus Adept, [139/146] Aurora
+    Lotus Master
+  Description: Returns sword to sheathed state to allow Asbel to chain into Assault Artes
+  Req. for mastery: "Adept: 70, Master: 560"
+shattersteel swarm:
+  Arte Name: Shattersteel Swarm
+  Enabled Effects: "?"
+  Enemy Attributes: "Fiend, Immaterial, Machine"
+  Damage Type: "-"
+  Total Damage (%): "530"
+  Damage Multiplier (per hit): "0.66"
+  Max Hits: "8"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/023] Accel Force, [xxx/130] Concussive Bolt Master, [xxx/147]
+    Shattersteel Swarm Adept, [xxx/148] Shattersteel Swarm Master
+  Req. for mastery: "Adept: 80, Master: 640"
+stampede strike:
+  Arte Name: Stampede Strike
+  Enabled Effects: "-"
+  Enemy Attributes: Beast
+  Damage Type: Slash
+  Total Damage (%): "2000"
+  Damage Multiplier (per hit): "2.50"
+  Max Hits: 8 (7~8)
+  "Title Acquisition[Wii/PS3]": "[006/006] Sword of the King, [017/017] Carta Collector (Combo Activation)"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 1;
+    create a combo of 25 hits or more
+lunar requiem:
+  Arte Name: Lunar Requiem
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: "Slash, Slow"
+  Total Damage (%): "3104"
+  Damage Multiplier (per hit): "3.88"
+  Max Hits: "8"
+  "Title Acquisition[Wii/PS3]": "[008/008] Friend to the End, [140/149] Assault Fighter (Combo Activation)"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 2;
+    create a combo of 50 hits or more
+expunging sword:
+  Arte Name: Expunging Sword
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Strike, Slash"
+  Total Damage (%): "5000"
+  Damage Multiplier (per hit): "1.78"
+  Max Hits: 28 (25~28)
+  "Title Acquisition[Wii/PS3]": >-
+    [016/016] Inheritor of Excalibur, [029/032] Veteran of the Sword (Combo
+    Activation)
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 3;
+    create a combo of 75 hits or more
+divine conqueror:
+  Arte Name: Divine Conqueror
+  Enabled Effects: adds 10 damage per hit for every 10 uses
+  Enemy Attributes: "Human, Nova"
+  Damage Type: Slash
+  Total Damage (%): 2500~4500
+  Damage Multiplier (per hit): 1.25~2.25
+  Max Hits: "20"
+  "Title Acquisition[Wii/PS3]": "[xxx/024] Hopebringer"
+  Requirements: press L1 during 100% Accelerate Mode
+blue earth:
+  Arte Name: Blue Earth
+  Description: >-
+    instantly defeats the final boss of "Lineages & Legacies", provides bonus
+    EXP, SP, and Gald at the end of battle
+  Enemy Attributes: "?"
+  Damage Type: "?"
+  Total Damage (%): "30000"
+  Damage Multiplier (per hit): "30.00"
+  Max Hits: "1"
+  Requirements: >-
+    after being targeted by the final boss of "Lineages & Legacies" and
+    attacked with Dual the Sol: hold ← + O during Dual the Sol to activate
+    Aquarius Sphere; hold X during Aquarius Sphere to activate Prism Stars;
+    hold Triangle during Prism Stars to activate Shining Gate; hold Square
+    during Shining Gate to activate Nova Explosion; hold Triangle + O during
+    Nova Explosion to activate Maxwell Minimus; hold Square + O + X during
+    Maxwell Minimus to activate Dimensional Material; hold Triangle + Square +
+    O + X during Dimensional Material to activate Blue Earth

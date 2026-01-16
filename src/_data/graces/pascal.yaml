@@ -1,0 +1,405 @@
+flowing strike:
+  Arte Name: Flowing Strike
+  Enabled Effects: Knockdown
+  Description: >-
+    the attack action changes based on the direction of the analog stick.
+    Enflame adds a ranged effect to this arte and gives it the Burn attribute
+    and [200] Total Damage %. ↑ and ↓ directions for this arte's melee hit
+    inflict knockdown. unlike other characters, Pascal will always skip
+    subsequent uses of Flowing Strike in any continuous Assault Artes chain,
+    i.e. CC1 > CC2 > CC3 > CC4 > CC2 > CC3 > CC4 > CC2 > ...
+  Enemy Attributes: "-"
+  Damage Type: Strike
+  Total Damage (%): "100 [200]"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+emission line:
+  Arte Name: Emission Line
+  Enabled Effects: "-"
+  Enemy Attributes: Machine
+  Damage Type: Shot
+  Total Damage (%): "170"
+  Damage Multiplier (per hit): "1.70"
+  Max Hits: "1"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [079/082] Emission Line Adept, [080/083] Emission Line Master"
+  Req. for mastery: "Adept: 50, Master: 250"
+freezing bloom:
+  Arte Name: Freezing Bloom
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Shot, Freeze"
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.90"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Mysterious Groper, [021/024] Initiate of Gun & Glyph, [042/045]
+    Combo Hunter, [085/088] Freezing Bloom Adept, [086/089] Freezing Bloom
+    Master
+  Req. for mastery: "Adept: 50, Master: 250"
+nighthawk talon:
+  Arte Name: Nighthawk Talon
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: Shot
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "0.66"
+  Max Hits: "3"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [004/004] Ruins Spelunker, [022/025] Student of Gun & Glyph, [085/088]
+    Freezing Bloom Adept, [087/090] Nighthawk Talon Adept, [088/091] Nighthawk
+    Talon Master
+  Req. for mastery: "Adept: 50, Master: 250"
+star scatter:
+  Arte Name: Star Scatter
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Shot, Paralysis"
+  Total Damage (%): "240"
+  Damage Multiplier (per hit): "2.40"
+  Max Hits: 1 (1~2)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [081/084] Star Scatter Adept, [082/085] Star Scatter Master"
+  Req. for mastery: "Adept: 40, Master: 200"
+vicious circle:
+  Arte Name: Vicious Circle
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: Shot
+  Total Damage (%): "250"
+  Damage Multiplier (per hit): "0.50"
+  Max Hits: 5 (4~6)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Adolescent Girl, [023/026] Devotee of Gun & Glyph, [087/090]
+    Nighthawk Talon Adept, [089/092] Vicious Circle Adept, [090/093] Vicious
+    Circle Master
+  Req. for mastery: "Adept: 40, Master: 200"
+sudden impact:
+  Arte Name: Sudden Impact
+  Enabled Effects: "-"
+  Enemy Attributes: Human
+  Damage Type: Shot
+  Total Damage (%): "260"
+  Damage Multiplier (per hit): "2.60"
+  Max Hits: "1"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] Born Scribbler, [024/027] Maven of Gun & Glyph, [089/092]
+    Vicious Circle Adept, [091/094] Sudden Impact Adept, [092/095] Sudden
+    Impact Master
+  Req. for mastery: "Adept: 40, Master: 200"
+petal burst:
+  Arte Name: Petal Burst
+  Enabled Effects: "-"
+  Enemy Attributes: Inorganic
+  Damage Type: Shot
+  Total Damage (%): "390"
+  Damage Multiplier (per hit): "0.39"
+  Max Hits: "10"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [083/086] Petal Burst Adept, [084/087] Petal Burst Master"
+  Req. for mastery: "Adept: 30, Master: 150"
+star crusher:
+  Arte Name: Star Crusher
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Shot
+  Total Damage (%): "330"
+  Damage Multiplier (per hit): "0.55"
+  Max Hits: 6 (6~10)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Real Amarcian, [025/028] Ace of Gun & Glyph, [091/094] Sudden
+    Impact Adept, [093/096] Star Crusher Adept, [094/097] Star Crusher Master
+  Req. for mastery: "Adept: 30, Master: 150"
+death sentence:
+  Arte Name: Death Sentence
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Shot, Impact"
+  Total Damage (%): "360"
+  Damage Multiplier (per hit): "0.90"
+  Max Hits: "4"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [008/008] Reverent Sister, [026/029] Maestro of Gun & Glyph, [093/096]
+    Star Crusher Adept, [095/098] Death Sentence Adept, [096/099] Death
+    Sentence Master
+  Req. for mastery: "Adept: 30, Master: 150"
+flux form:
+  Arte Name: Flux Form
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Aerial, Impact"
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "2.00"
+  Max Hits: "1"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/021] Same Old, Same Old, [xxx/080] Pilferator, [xxx/084] Star Scatter
+    Adept, [xxx/100] Flux Form Adept, [xxx/101] Flux Form Master
+  Req. for mastery: "Adept: 40, Master: 200"
+wind needle:
+  Arte Name: Wind Needle
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: "Slash, **Aerial**, **Poison**"
+  Total Damage (%): "420"
+  Damage Multiplier (per hit): "2.10"
+  Max Hits: "2"
+  Casting Time (seconds): "1.33"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Vagabond, [021/024] Initiate of Gun & Glyph, [097/102] Wind
+    Needle Adept, [098/103] Wind Needle Master, [109/114] Spread Master
+  Req. for mastery: "Adept: 40, Master: 320"
+fearful storm:
+  Arte Name: Fearful Storm
+  Enabled Effects: "-"
+  Enemy Attributes: "Bird, Spirit, **Human**"
+  Damage Type: "Poison, **Aerial**"
+  Total Damage (%): "720"
+  Damage Multiplier (per hit): "0.90"
+  Max Hits: "8"
+  Casting Time (seconds): "2.17"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [011/011] Wind Summoner, [023/026] Devotee of Gun & Glyph, [098/103] Wind
+    Needle Master, [099/104] Fearful Storm Adept, [100/105] Fearful Storm
+    Master
+  Req. for mastery: "Adept: 35, Master: 280"
+grim sylphie:
+  Arte Name: Grim Sylphie
+  Enabled Effects: "-"
+  Enemy Attributes: "Bird, **Insect**, **Nova**"
+  Damage Type: "Aerial, Poison"
+  Total Damage (%): "1100"
+  Damage Multiplier (per hit): "0.68"
+  Max Hits: "16"
+  Casting Time (seconds): "3.50"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [020/020] Eleth Mod, [025/028] Ace of Gun & Glyph, [100/105] Fearful Storm
+    Master, [101/106] Grim Sylphie Adept, [102/107] Grim Sylphie Master
+  Req. for mastery: "Adept: 30, Master: 240"
+pyrogenic ring:
+  Arte Name: Pyrogenic Ring
+  Enabled Effects: "-"
+  Enemy Attributes: "Insect, **Beast**, **Human**"
+  Damage Type: Burn
+  Total Damage (%): "450"
+  Damage Multiplier (per hit): "4.50"
+  Max Hits: "1"
+  Casting Time (seconds): "1.08"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Vagabond, [029/032] "**Flash Genius**', [097/102] Wind Needle
+    Adept, [103/108] Pyrogenic Ring Adept, [104/109] Pyrogenic Ring Master
+  Req. for mastery: "Adept: 40, Master: 320"
+infernal prison:
+  Arte Name: Infernal Prison
+  Enabled Effects: "-"
+  Enemy Attributes: "Fiend, **Bird**, **Plant**"
+  Damage Type: "Burn, Petrify"
+  Total Damage (%): "750"
+  Damage Multiplier (per hit): "1.50"
+  Max Hits: "5"
+  Casting Time (seconds): "2.33"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [008/008] Reverent Sister, [020/020] Eleth Mod, [104/109] Pyrogenic Ring
+    Master, [105/110] Infernal Prison Adept, [106/111] Infernal Prison Master
+  Req. for mastery: "Adept: 35, Master: 280"
+bloodflamme:
+  Arte Name: Bloodflamme
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, **Nova**"
+  Damage Type: "Burn, **Strike**"
+  Total Damage (%): "1000"
+  Damage Multiplier (per hit): "1.11"
+  Max Hits: 9 (5~9)
+  Casting Time (seconds): "4.67"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [013/013] Fire Summoner, [018/xxx] Free Spirit, [xxx/047] Combo Master,
+    [106/111] Infernal Prison Master, [107/112] Bloodflamme Adept, [108/113]
+    Bloodflamme Master
+  Req. for mastery: "Adept: 30, Master: 240"
+spread:
+  Arte Name: Spread
+  Enabled Effects: "-"
+  Enemy Attributes: "Machine, **Aquatic**, **Reptile**"
+  Damage Type: Slow
+  Total Damage (%): "460"
+  Damage Multiplier (per hit): "1.15"
+  Max Hits: "4"
+  Casting Time (seconds): "0.83"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Mysterious Groper, [021/024] Initiate of Gun & Glyph, [103/108]
+    Pyrogenic Ring Adept, [109/114] Spread Adept, [110/115] Spread Master
+  Req. for mastery: "Adept: 40, Master: 320"
+maelstrom:
+  Arte Name: Maelstrom
+  Enabled Effects: "-"
+  Enemy Attributes: "Aquatic, Machine, **Inorganic**"
+  Damage Type: "Slow, **Freeze**"
+  Total Damage (%): "750"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "6"
+  Casting Time (seconds): "2.33"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/027] Maven of Gun & Glyph, [043/046] Combo Hunter, [110/115] Spread
+    Master, [111/116] Maelstrom Adept, [112/117] Maelstrom Master
+  Req. for mastery: "Adept: 35, Master: 280"
+cyandine:
+  Arte Name: Cyandine
+  Enabled Effects: "-"
+  Enemy Attributes: "Reptile, Machine, **Dragon**, **Nova**"
+  Damage Type: Slow
+  Total Damage (%): "1200"
+  Damage Multiplier (per hit): "4.00"
+  Max Hits: "3"
+  Casting Time (seconds): "3.17"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [017/017] Puzzle Cracker, [078/081] Robberator, [112/117] Maelstrom
+    Master, [113/118] Cyandine Adept, [114/119] Cyandine Master
+  Req. for mastery: "Adept: 30, Master: 240"
+trinity bit:
+  Arte Name: Trinity Bit
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, **Nova**"
+  Damage Type: "Impact, **Paralysis**"
+  Total Damage (%): "400"
+  Damage Multiplier (per hit): "1.33"
+  Max Hits: "3"
+  Casting Time (seconds): "1.25"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Real Amarcian, [051/054] Rapid Retriever, [077/080] Pilferator,
+    [115/120] Trinity Bit Adept, [116/121] Trinity Bit Master
+  Description: >-
+    creates 3 spheres around the user; spheres are expended if they hit an
+    enemy, if the user is staggered, if the user finishes a spell or if Flux
+    Form is used
+  Req. for mastery: "Adept: 40, Master: 320"
+assault sign:
+  Arte Name: Assault Sign
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "1.00"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [004/004] Ruins Spelunker, [022/025] Student of Gun & Glyph, [117/122]
+    Assault Sign Adept, [118/123] Assault Sign Master, [120/125] Rampart Sign
+    Master
+  Description: >-
+    increases the physical attack power of all allies within range by 25% for
+    15 seconds
+  Req. for mastery: "Adept: 35, Master: 280"
+rampart sign:
+  Arte Name: Rampart Sign
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "1.00"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Adolescent Girl, [032/035] Arte Apprentice, [118/123] Assault
+    Sign Master, [119/124] Rampart Sign Adept, [120/125] Rampart Sign Master
+  Description: >-
+    increases the physical defense of all allies within range by 25% for 15
+    seconds
+  Req. for mastery: "Adept: 35, Master: 280"
+shining field:
+  Arte Name: Shining Field
+  Enabled Effects: "-"
+  Enemy Attributes: "Fiend, Nova, **Human**"
+  Damage Type: "Paralysis, **Aerial**"
+  Total Damage (%): "500"
+  Damage Multiplier (per hit): "1.66"
+  Max Hits: "3"
+  Casting Time (seconds): "3.83"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [009/009] Enlightened Shotstaffer, [010/010] Pride of the Amarcia,
+    [015/015] Patriot of Fendel, [121/126] Shining Field Adept, [122/127]
+    Shining Field Master
+  Description: heals 25% of max HP to all allies within range
+  Req. for mastery: "Adept: 30, Master: 240"
+enflame:
+  Arte Name: Enflame
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Strike, Burn"
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "0.50"
+  Max Hits: "4"
+  Casting Time (seconds): "-"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [039/042] Critical Hitter, [069/072] Local Personality, [123/128] Enflame
+    Adept, [124/129] Enflame Master, [126/131] Magnetic Field Master
+  Description: >-
+    modifies Flowing Strike to add the Burn attribute as well as a ranged
+    component to the attack for 20 seconds; using Enflame again while the
+    Enflame effect is active will cause Pascal to perform a cleaving flame
+    attack
+  Req. for mastery: "Adept: 90, Master: 720"
+magnetic gate:
+  Arte Name: Magnetic Gate
+  Enabled Effects: "-"
+  Enemy Attributes: "Inorganic, Machine, **Plant**, **Amorphous**"
+  Damage Type: "-"
+  Total Damage (%): "150"
+  Damage Multiplier (per hit): "0.75"
+  Max Hits: "2"
+  Casting Time (seconds): "2.67"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [049/052] Attribute Sister, [057/060] Hipster, [124/129] Enflame Master,
+    [125/130] Magnetic Gate Adept, [126/131] Magnetic Gate Master
+  Description: pulls enemies towards the center of the spell effect
+  Req. for mastery: "Adept: 40, Master: 320"
+fangirl dream:
+  Arte Name: Fangirl Dream
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Machine, Nova"
+  Damage Type: "**Poison**, **Slow**"
+  Total Damage (%): "1000"
+  Damage Multiplier (per hit): "0.31"
+  Max Hits: 32 (14~32)
+  Casting Time (seconds): "5.33"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [014/014] Brainiac, [027/030] Virtuoso of Gun & Glyph, [127/132] Fangirl
+    Dream Adept, [128/133] Fangirl Dream Master, [130/137] Burst Summoner
+  Req. for mastery: "Adept: 25, Master: 200"
+celestial eight:
+  Arte Name: Celestial Eight
+  Enabled Effects: "?"
+  Enemy Attributes: "Nova, **Dragon**"
+  Damage Type: "Paralysis, **Impact**"
+  Total Damage (%): "1500"
+  Damage Multiplier (per hit): "15.00"
+  Max Hits: "1"
+  Casting Time (seconds): "6.00"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/022] Big Sister Type, [xxx/126] Shining Field Adept, [xxx/134]
+    Celestial Eight Adept, [xxx/135] Celestial Eight Master
+  Req. for mastery: "Adept: 25, Master: 200"

@@ -1,0 +1,511 @@
+shimmering cut:
+  Arte Name: Shimmering Cut
+  Description: the attack action changes based on the direction of the analog stick
+  Enemy Attributes: "-"
+  Damage Type: Slash
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "1"
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+triple strike:
+  Arte Name: Triple Strike
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: Strike
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.60"
+  Max Hits: "3"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [086/090] Triple Strike Adept, [087/091] Triple Strike Master"
+  Req. for mastery: "Adept: 90, Master: 450"
+eagle dive:
+  Arte Name: Eagle Dive
+  Enabled Effects: "-"
+  Enemy Attributes: Bird
+  Damage Type: Strike
+  Total Damage (%): "180, 190"
+  Damage Multiplier (per hit): "0.90, 0.95"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Amnesiac, [004/004] In The Flesh, [022/025] Initiate of the
+    Fist, [092/096] Eagle Dive Adept, [093/097] Eagle Dive Master
+  Req. for mastery: "Adept: 90, Master: 450"
+elegant flash:
+  Arte Name: Elegant Flash
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Nova"
+  Damage Type: Slash
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.90"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Amnesiac, [002/002] Named After a Flower, [022/025] Initiate of
+    the Fist, [094/098] Elegant Flash Adept, [095/099] Elegant Flash Master
+  Req. for mastery: "Adept: 90, Master: 450"
+dragon dash:
+  Arte Name: Dragon Dash
+  Enabled Effects: "-"
+  Enemy Attributes: Dragon
+  Damage Type: Strike
+  Total Damage (%): "180, 190"
+  Damage Multiplier (per hit): "0.90, 0.95"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Named After a Flower, [004/004] In the Flesh, [035/039] Flash
+    Battler, [096/100] Dragon Dash Adept, [097/101] Dragon Dash Master
+  Req. for mastery: "Adept: 90, Master: 450"
+double moon:
+  Arte Name: Double Moon
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Strike
+  Total Damage (%): "250, 260"
+  Damage Multiplier (per hit): "0.62, 0.52"
+  Max Hits: "4"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [088/092] Double Moon Adept, [089/093] Double Moon Master"
+  Req. for mastery: "Adept: 80, Master: 400"
+demolition drive:
+  Arte Name: Demolition Drive
+  Enabled Effects: >-
+    causes the background to grow dark on a clean hit; after using any Assault
+    Arte, continue to hold the Assault Artes button to fill 3 gauges, then
+    release the button once all gauges are full
+  Enemy Attributes: "Fiend, Nova"
+  Damage Type: Strike
+  Total Damage (%): "250, 280"
+  Damage Multiplier (per hit): "1.25, 0.93"
+  Max Hits: "2"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] One and the Same, [006/006] Independent Thinker, [022/025]
+    Initiate of the Fist, [098/102] Demolition Drive Adept, [099/103]
+    Demolition Drive Master
+  Req. for mastery: "Adept: 80, Master: 400"
+lucent palisade:
+  Arte Name: Lucent Palisade
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Nova"
+  Damage Type: Slash
+  Total Damage (%): "250, 260"
+  Damage Multiplier (per hit): "0.50, 0.52"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] Independent Thinker, [041/045] Striker, [100/104] Lucent
+    Palisade Adept, [101/105] Lucent Palisade Master, [124/134] Sword Assault
+    Adept
+  Req. for mastery: "Adept: 80, Master: 400"
+phantom dance:
+  Arte Name: Phantom Dance
+  Enabled Effects: "-"
+  Enemy Attributes: "Amorphous, Nova"
+  Damage Type: Slash
+  Total Damage (%): "250, 270"
+  Damage Multiplier (per hit): "0.50, 0.54"
+  Max Hits: "5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Prone to Worry, [057/061] Rapid Retriever, [102/106] Phantom
+    Dance Adept, [103/107] Phantom Dance Master, [126/136] Dualblade Spin
+    Adept
+  Req. for mastery: "Adept: 80, Master: 400"
+piercing blast:
+  Arte Name: Piercing Blast
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Shot, Paralysis"
+  Total Damage (%): "320, 350"
+  Damage Multiplier (per hit): "0.45, 0.50"
+  Max Hits: "7"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [090/094] Piercing Blast Adept, [091/095] Piercing Blast Master"
+  Req. for mastery: "Adept: 70, Master: 350"
+spirit rush:
+  Arte Name: Spirit Rush
+  Enabled Effects: "-"
+  Enemy Attributes: "Spirit, Nova"
+  Damage Type: Impact
+  Total Damage (%): "320"
+  Damage Multiplier (per hit): "0.35"
+  Max Hits: "9"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/027] Devotee of the Fist, [058/062] Spry Scavenger, [060/064] Mastery
+    Mistress, [104/108] Spirit Rush Adept, [105/109] Spirit Rush Master
+  Req. for mastery: "Adept: 70, Master: 350"
+sundering fury:
+  Arte Name: Sundering Fury
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Nova"
+  Damage Type: Slash
+  Total Damage (%): "320, 400"
+  Damage Multiplier (per hit): "0.35, 0.44"
+  Max Hits: "9"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [015/015] Stirred from Detachment, [025/028] Maven of the Fist, [053/057]
+    Quad Smasher, [106/110] Sundering Fury Adept, [107/111] Sundering Fury
+    Master
+  Req. for mastery: "Adept: 70, Master: 350"
+angelic ascent:
+  Arte Name: Angelic Ascent
+  Enabled Effects: "-"
+  Enemy Attributes: "Nova, Bird"
+  Damage Type: "-"
+  Total Damage (%): "320, 360"
+  Damage Multiplier (per hit): "0.53, 0.60"
+  Max Hits: "6"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [009/009] Protos Heis, [016/016] Version 6.1, [026/029] Ace of the Fist,
+    [108/112] Angelic Ascent Adept, [109/113] Angelic Ascent Master
+  Req. for mastery: "Adept: 70, Master: 350"
+reaper's toll:
+  Arte Name: Reaper's Toll
+  Description: >-
+    after using any Assault Arte, continue to hold the Assault Artes button to
+    fill 1 gauge, then release the button once the gauge is full
+  Enemy Attributes: Insect
+  Damage Type: Strike
+  Total Damage (%): "200, 350"
+  Damage Multiplier (per hit): "1.00, 1.75"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Dead Ringer, [045/049] Critical Hitter, [072/076] Pilferator,
+    [136/114] Reaper's Toll Adept, [137/115] Reaper's Toll Master
+  Req. for mastery: "Adept: 90, Master: 450"
+beast:
+  Arte Name: Beast
+  Enabled Effects: Knockdown
+  Description: >-
+    after using any Assault Arte, continue to hold the Assault Artes button to
+    fill 2 gauges, then release the button once both gauges are full
+  Enemy Attributes: Beast
+  Damage Type: Impact
+  Total Damage (%): "360, 500"
+  Damage Multiplier (per hit): "1.20, 1.66"
+  Max Hits: "3"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [025/028] Maven of the Fist, [052/056] Dual Smasher, [136/114] Reaper's
+    Toll Adept, [138/116] Beast Adept, [139/117] Beast Master
+  Req. for mastery: "Adept: 80, Master: 400"
+deadly force:
+  Arte Name: Deadly Force
+  Description: >-
+    causes the background to grow dark on a clean hit; after using any Assault
+    Arte, continue to hold the Assault Artes button to fill 3 gauges, then
+    release the button once all gauges are full
+  Enemy Attributes: Inorganic
+  Damage Type: Impact
+  Total Damage (%): "400, 650"
+  Damage Multiplier (per hit): "4.00, 6.50"
+  Max Hits: "1"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [010/010] Wish Maker, [046/050] Critical Slugger, [138/116] Beast Adept,
+    [140/118] Deadly Force Adept, [141/119] Deadly Force Master
+  Req. for mastery: "Adept: 70, Master: 350"
+first aid:
+  Arte Name: First Aid
+  Description: >-
+    heals 30% of max HP to one ally; Red Charge: recovers some CC for that
+    ally
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "2.5"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    default, [003/003] Dead Ringer, [023/026] Student of the Fist, [038/042]
+    Arte Apprentice, [110/120] First Aid Adept, [111/121] First Aid Master
+  Req. for mastery: "Adept: 40, Master: 320"
+heal:
+  Arte Name: Heal
+  Description: >-
+    heals 50% of max HP to one ally; Red Charge: recovers some CC for that
+    ally
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "3.5"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Prone to Worry, [023/026] Student of the Fist, [110/120] First
+    Aid Adept, [112/122] Heal Adept, [113/123] Heal Master
+  Req. for mastery: "Adept: 35, Master: 280"
+cure:
+  Arte Name: Cure
+  Description: >-
+    heals 80% of max HP to one ally; Red Charge: recovers some CC for that
+    ally
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "4.5"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [025/028] Maven of the Fist, [043/047] Savior, [114/124] Cure Adept,
+    [115/125] Cure Master, [116/126] Rejuvenate Adept
+  Req. for mastery: "Adept: 30, Master: 240"
+rejuvenate:
+  Arte Name: Rejuvenate
+  Description: >-
+    heals 30% of max HP to one ally; if the ally is knocked-out, revives that
+    ally with 30% of max HP healed; Red Charge: recovers some CC for that ally
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "5.5"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [023/026] Student of the Fist, [043/047] Savior, [112/122] Heal Adept,
+    [116/126] Rejuvenate Adept, [117/127] Rejuvenate Master
+  Req. for mastery: "Adept: 25, Master: 200"
+ataraxia:
+  Arte Name: Ataraxia
+  Description: >-
+    cures any current status ailments for Sophie; temporarily prevents all
+    status ailments if a status ailment has been cured
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "-"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [043/047] Savior, [054/058] Attribute Maiden, [066/070] The Awakened,
+    [118/128] Ataraxia Adept, [119/129] Ataraxia Master
+  Req. for mastery: "Adept: 90, Master: 720"
+sensor flare:
+  Arte Name: Sensor Flare
+  Description: increases the accuracy and critical rate of Sophie's next arte by 10x
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "-"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [013/013] Lucky Girl, [036/040] Wild Girl, [078/082] Jogger, [120/130]
+    Sensor Flare Adept, [121/131] Sensor Flare Master
+  Req. for mastery: "Adept: 90, Master: 720"
+rapier rush:
+  Arte Name: Rapier Rush
+  Description: "initiates a guarding stance, ready to counter any enemy attack"
+  Enemy Attributes: "Reptile, Human"
+  Damage Type: Strike
+  Total Damage (%): "500, 520"
+  Damage Multiplier (per hit): "5.00, 5.20"
+  Max Hits: "1"
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [030/033] Sword Trainee, [049/053] Combo Hunter, [066/070] The Awakened,
+    [122/132] Rapier Rush Adept, [123/133] Rapier Rush Master
+  Req. for mastery: "Adept: 100, Master: 800"
+sword assault:
+  Arte Name: Sword Assault
+  Description: "provides Iron Stance, which prevents stagger for a single hit"
+  Enemy Attributes: "Spirit, Nova"
+  Damage Type: Slash
+  Total Damage (%): "250"
+  Damage Multiplier (per hit): "2.50"
+  Max Hits: "1"
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [012/012] Heavenly Emissary, [024/027] Devotee of the Fist, [030/033]
+    Sword Trainee, [124/134] Sword Assault Adept, [125/135] Sword Assault
+    Master
+  Req. for mastery: "Adept: 100, Master: 800"
+dualblade spin:
+  Arte Name: Dualblade Spin
+  Description: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Strike, Paralysis"
+  Total Damage (%): "500"
+  Damage Multiplier (per hit): "0.50"
+  Max Hits: 10 (6~10)
+  Casting Time (seconds): "-"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [016/016] Version 6.1, [031/034] Dualblade Trainee, [076/080] Gossip
+    Addict, [126/136] Dualblade Spin Adept, [127/137] Dualblade Spin Master
+  Req. for mastery: "Adept: 90, Master: 720"
+dagger splash:
+  Arte Name: Dagger Splash
+  Description: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Slash, Freeze"
+  Total Damage (%): "300"
+  Damage Multiplier (per hit): "0.75"
+  Max Hits: "4"
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [013/013] Lucky Girl, [032/035] Dagger Trainee, [075/079] Gossip Fan,
+    [128/138] Dagger Splash Adept, [129/139] Dagger Splash Master
+  Req. for mastery: "Adept: 100, Master: 800"
+bladerang hurl:
+  Arte Name: Bladerang Hurl
+  Description: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Slash, Slow"
+  Total Damage (%): "300, 330"
+  Damage Multiplier (per hit): "3.00, 3.30"
+  Max Hits: "1"
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [014/014] Pact Adherent, [033/036] Bladerang Trainee, [075/079] Gossip
+    Lover, [130/140] Bladerang Hurl Adept, [131/141] Bladerang Hurl Master
+  Req. for mastery: "Adept: 100, Master: 800"
+shotstaff blast:
+  Arte Name: Shotstaff Blast
+  Description: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Shot, Burn"
+  Total Damage (%): "500, 470"
+  Damage Multiplier (per hit): "5.00, 4.70"
+  Max Hits: "1"
+  Casting Time (seconds): "-"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [015/015] Stirred from Detachment, [034/037] Shotstaff Trainee, [076/080]
+    Gossip Addict, [132/142] Shotstaff Blast Adept, [133/143] Shotstaff Blast
+    Master
+  Req. for mastery: "Adept: 90, Master: 720"
+gauntlet blitz:
+  Arte Name: Gauntlet Blitz
+  Description: "-"
+  Enemy Attributes: Nova
+  Damage Type: "Impact, Slow"
+  Total Damage (%): "720"
+  Damage Multiplier (per hit): "0.55"
+  Max Hits: 13 (6~13)
+  Casting Time (seconds): "-"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [011/011] Pact Maker, [027/030] Maestro of the Fist, [040/044] Arte
+    Artiste, [134/144] Gauntlet Blitz Adept, [135/145] Gauntlet Blitz Master
+  Req. for mastery: "Adept: 70, Master: 560"
+slash rose:
+  Arte Name: Slash Rose
+  Description: "-"
+  Enemy Attributes: Plant
+  Damage Type: "Slash, Poison"
+  Total Damage (%): "550"
+  Damage Multiplier (per hit): "0.78"
+  Max Hits: "7"
+  Casting Time (seconds): "-"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/023] Sophie Lhant, [xxx/038] Rapier Trainee, [xxx/146] Slash Rose
+    Adept, [xxx/147] Slash Rose Master
+  Req. for mastery: "Adept: 80, Master: 640"
+invigoration:
+  Arte Name: Invigoration
+  Description: >-
+    heals 10% of max HP to all allies increases cryas defense of all allies by
+    25% for 30 seconds
+  Casting Time (seconds): "3.33"
+  CC Cost: "8"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/022] Toast of the Town, [xxx/124] Cure Adept, [xxx/148] Invigoration
+    Adept, [xxx/149] Invigoration Master, [xxx/149] Invigoration Master
+  Req. for mastery: "Adept: 25,, Master: 200"
+critical blade:
+  Arte Name: Critical Blade
+  Enemy Attributes: Nova
+  Damage Type: Slash
+  Total Damage (%): "2000"
+  Damage Multiplier (per hit): "3.33"
+  Max Hits: "6"
+  "Title Acquisition[Wii/PS3]": "[005/005] One and the Same, [017/017] Flower Girl Combo Activation"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 1;
+    create a combo of 25 hits or more
+infinitia soul:
+  Arte Name: Infinitia Soul
+  Enemy Attributes: Nova
+  Damage Type: "Strike, Slash"
+  Total Damage (%): "3500"
+  Damage Multiplier (per hit): "2.69"
+  Max Hits: "13"
+  "Title Acquisition[Wii/PS3]": "[009/009] Protos Heis, [020/020] Beach Kitty (Combo Activation) "
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 2;
+    create a combo of 50 hits or more
+zero dissolver:
+  Arte Name: Zero Dissolver
+  Enemy Attributes: "Inorganic, Nova"
+  Damage Type: Slash
+  Total Damage (%): "5000"
+  Damage Multiplier (per hit): "2.08"
+  Max Hits: "24"
+  "Title Acquisition[Wii/PS3]": "[018/018] Lara's Bestie, [029/032] Veteran of the Fist (Combo Activation)"
+  Title Mastery: "3, 5"
+  Mastery Skill Effect: "Mystic Arte, Combo Activation"
+  Requirements: >-
+    Eleth Burst must be active, the Eleth Gauge must be filled to Level 3;
+    create a combo of 75 hits or more
+shadow moment:
+  Arte Name: Shadow Moment
+  Enemy Attributes: Spirit
+  Damage Type: "Strike, **Shot**"
+  Total Damage (%): 2500~4500
+  Damage Multiplier (per hit): 2.77~5.00
+  Max Hits: "9"
+  "Title Acquisition[Wii/PS3]": "[xxx/024] Godmother"
+  Title Mastery: "3"
+  Mastery Skill Effect: Mystic Arte
+  Requirements: Press L1 during 100% Accelerate Mode
+fire dragon rampage:
+  Arte Name: Fire Dragon Rampage
+  Enemy Attributes: "Plant, Dragon"
+  Damage Type: Burn
+  Total Damage (%): "1000"
+  Damage Multiplier (per hit): "1.25"
+  Max Hits: "8"
+  Requirements: >-
+    After hitting with Deadly Force, perform a chain of artes with CC costs of
+    1, 2, 3 and 4 (at least one of each, any order) within the Deadly Force
+    effect time and press L1 during the 4CC arte
+blue earth:
+  Arte Name: Blue Earth
+  Description: >-
+    instantly defeats the final boss of "Lineages & Legacies", provides bonus
+    EXP, SP, and Gald at the end of battle
+  Enemy Attributes: "?"
+  Damage Type: "?"
+  Total Damage (%): "30000"
+  Damage Multiplier (per hit): "30.00"
+  Max Hits: "1"
+  Requirements: >-
+    After being targeted by the final boss of 'Lineages & Legacies' and
+    attacked with Dual the Sol: hold ← + O during Dual the Sol to activate
+    Aquarius Sphere, hold X during Aquarius Sphere to activate Prism Stars,
+    hold Triangle during Prism Stars to activate Shining Gate, hold Square
+    during Shining Gate to activate Nova Explosion, hold Triangle + O during
+    Nova Explosion to activate Maxwell Minimus, hold Square + O + X during
+    Maxwell Minimus to activate Dimensional Material, hold Triangle + Square +
+    O + X during Dimensional Material to activate Blue Earth, instantly
+    defeats the final boss of 'Lineages & Legacies', provides bonus EXP, SP,
+    and Gald at the end of battle

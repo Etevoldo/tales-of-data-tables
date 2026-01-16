@@ -1,0 +1,371 @@
+crescent moon:
+  Arte Name: Crescent Moon
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: Slash
+  Total Damage (%): "100"
+  Damage Multiplier (per hit): "0.50"
+  Max Hits: 2 (1~2)
+  CC Cost: "1"
+  "Title Acquisition[Wii/PS3]": default
+  Description: the attack action changes based on the direction of the analog stick
+new moon:
+  Arte Name: New Moon
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Slash
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.90"
+  Max Hits: "2"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": "default, [079/082] New Moon Adept, [080/083] New Moon Master"
+  Req. for mastery: "Adept: 90, Master: 450"
+tiger blade:
+  Arte Name: Tiger Blade
+  Enabled Effects: "-"
+  Enemy Attributes: Beast
+  Damage Type: Slash
+  Total Damage (%): "180"
+  Damage Multiplier (per hit): "0.45"
+  Max Hits: "4"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Prudent Sibling, [020/023] Dualblade Initiate, [028/031] Flash
+    Lieutenant, [085/088] Tiger Blade Adept, [086/089] Tiger Blade Master
+  Req. for mastery: "Adept: 90, Master: 450"
+gale fang:
+  Arte Name: Gale Fang
+  Enabled Effects: "-"
+  Enemy Attributes: Insect
+  Damage Type: Slash
+  Total Damage (%): "170"
+  Damage Multiplier (per hit): "0.56"
+  Max Hits: 3 (2~4)
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [001/001] Prudent Sibling, [020/023] Dualblade Initiate, [041/044] Combo
+    Fighter, [087/090] Gale Fang Adept, [088/091] Gale Fang Master
+  Req. for mastery: "Adept: 90, Master: 450"
+thunder fang:
+  Arte Name: Thunder Fang
+  Enabled Effects: "-"
+  Enemy Attributes: "Machine, Nova"
+  Damage Type: "-"
+  Total Damage (%): "170"
+  Damage Multiplier (per hit): "0.56"
+  Max Hits: 3 (2~4)
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Second-Born Son, [020/023] Dualblade Initiate, [041/044] Combo
+    Fighter, [089/092] Thunder Fang Adept, [090/093] Thunder Fang Master
+  Req. for mastery: "Adept: 90, Master: 450"
+full moon:
+  Arte Name: Full Moon
+  Enabled Effects: "-"
+  Enemy Attributes: Spirit
+  Damage Type: Slash
+  Total Damage (%): "260"
+  Damage Multiplier (per hit): "0.65"
+  Max Hits: 4 (4~5)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": "default, [081/084] Full Moon Adept, [082/085] Full Moon Master"
+  Req. for mastery: "Adept: 80, Master: 400"
+detonation bloom:
+  Arte Name: Detonation Bloom
+  Enabled Effects: "-"
+  Enemy Attributes: Plant
+  Damage Type: Impact
+  Total Damage (%): "280"
+  Damage Multiplier (per hit): "0.93"
+  Max Hits: 3 (2~3)
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [004/004] Military Governor, [031/034] Arte Apprentice, [067/070]
+    Dilettante Collector, [091/094] Detonation Bloom Adept, [092/095]
+    Detonation Bloom Master
+  Req. for mastery: "Adept: 80, Master: 400"
+dual shredder:
+  Arte Name: Dual Shredder
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Slow"
+  Total Damage (%): "250"
+  Damage Multiplier (per hit): "0.41"
+  Max Hits: "6"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [010/010] Restorer of Pride, [038/041] Critical Hitter, [056/059] Baron,
+    [093/096] Dual Shredder Adept, [094/097] Dual Shredder Master
+  Req. for mastery: "Adept: 80, Master: 400"
+whirlwind slash:
+  Arte Name: Whirlwind Slash
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "Slash, Poison"
+  Total Damage (%): "290"
+  Damage Multiplier (per hit): "0.29"
+  Max Hits: "11"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] The Youngest Lieutenant, [022/xxx] Souken Shoukou (双剣将校),
+    [xxx/025] Dualblade Devotee, [050/053] Rapid Retriever, [095/098]
+    Whirlwind Slash Adept, [096/099] Whirlwind Slash Master
+  Req. for mastery: "Adept: 80, Master: 400"
+falling star:
+  Arte Name: Falling Star
+  Enabled Effects: "-"
+  Enemy Attributes: Amorphous
+  Damage Type: Slash
+  Total Damage (%): "330"
+  Damage Multiplier (per hit): "0.41"
+  Max Hits: 9 (8~9)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": "default, [083/086] Falling Star Adept, [084/087] Falling Star Master"
+  Req. for mastery: "Adept: 70, Master: 350"
+mega sonic thrust:
+  Arte Name: Mega Sonic Thrust
+  Enabled Effects: Knockdown
+  Enemy Attributes: "-"
+  Damage Type: "Aerial, Impact, Slow"
+  Total Damage (%): "370"
+  Damage Multiplier (per hit): "1.85"
+  Max Hits: "2"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Ambivalent Son, [023/xxx] Joukou Soukenshi (上級双剣士), [xxx/026]
+    Dualblade Maven, [032/135] Arte Authority, [097/100] Mega Sonic Thrust
+    Adept, [098/101] Mega Sonic Thrust Master
+  Req. for mastery: "Adept: 70, Master: 350"
+dualblade dance:
+  Arte Name: Dualblade Dance
+  Enabled Effects: "-"
+  Enemy Attributes: Human
+  Damage Type: Slash
+  Total Damage (%): "350"
+  Damage Multiplier (per hit): "0.23"
+  Max Hits: 15 (13~19)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Ambivalent Son, [054/057] Mastery King, [095/098] Whirlwind
+    Slash Adept, [099/102] Dualblade Dance Adept, [100/103] Dualblade Dance
+    Master
+  Req. for mastery: "Adept: 70, Master: 350"
+thunder bringer:
+  Arte Name: Thunder Bringer
+  Enabled Effects: "-"
+  Enemy Attributes: Nova
+  Damage Type: Paralysis
+  Total Damage (%): "320"
+  Damage Multiplier (per hit): "0.40"
+  Max Hits: 8 (13~19)
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [024/xxx] Rekisen Soukenshi (歴戦双剣士), [xxx/027] Dualblade Ace, [051/054]
+    Spry Scavenger, [064/067] Hardened Warrior, [101/104] Thunder Bringer
+    Adept, [102/105] Thunder Bringer Master
+  Req. for mastery: "Adept: 70, Master: 350"
+vital flair:
+  Arte Name: Vital Flair
+  Enabled Effects: "-"
+  Enemy Attributes: "Plant, Spirit"
+  Damage Type: "-"
+  Total Damage (%): "20"
+  Damage Multiplier (per hit): "0.10"
+  Max Hits: "2"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/020] Eradication Director, [xxx/106] Vital Flair Adept, [xxx/107]
+    Vital Flair Master, [xxx/128] Antidote Adept
+  Description: >-
+    after using any 3 CC Assault Arte, continue to hold the Assault Artes
+    button; heals self and attacks in a short range
+  Req. for mastery: "Adept: 80, Master: 400"
+flare shot:
+  Arte Name: Flare Shot
+  Enabled Effects: "-"
+  Enemy Attributes: Reptile
+  Damage Type: "Shot, Burn"
+  Total Damage (%): "220"
+  Damage Multiplier (per hit): "2.20"
+  Max Hits: "1"
+  Casting Time (seconds): "-"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [002/002] Second-Born Son, [003/003] Lieutenant, [021/024] Dualblade
+    Student, [103/108] Flare Shot Adept, [104/109] Flare Shot Master
+  Req. for mastery: "Adept: 100, Master: 800"
+aqua bullet:
+  Arte Name: Aqua Bullet
+  Enabled Effects: "-"
+  Enemy Attributes: "Aquatic, Machine"
+  Damage Type: Shot
+  Total Damage (%): "200"
+  Damage Multiplier (per hit): "1.00"
+  Max Hits: "2"
+  Casting Time (seconds): "-"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Lieutenant, [005/005] Dutiful Brother, [021/024] Dualblade
+    Student, [105/110] Aqua Bullet Adept, [106/111] Aqua Bullet Master
+  Req. for mastery: "Adept: 100, Master: 800"
+scarlet salvo:
+  Arte Name: Scarlet Salvo
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Nova"
+  Damage Type: Shot
+  Total Damage (%): "230"
+  Damage Multiplier (per hit): "1.15"
+  Max Hits: "2"
+  Casting Time (seconds): "-"
+  CC Cost: "2"
+  "Title Acquisition[Wii/PS3]": >-
+    [003/003] Lieutenant, [021/024] Dualblade Student, [029/032] Noble
+    Soldier, [107/112] Scarlet Salvo Adept, [108/113] Scarlet Salvo Master
+  Req. for mastery: "Adept: 100, Master: 800"
+radial arc:
+  Arte Name: Radial Arc
+  Enabled Effects: "-"
+  Enemy Attributes: "Inorganic, Fiend"
+  Damage Type: Shot
+  Total Damage (%): "310"
+  Damage Multiplier (per hit): "0.77"
+  Max Hits: 4 (4~5)
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] The Youngest Lieutenant, [022/xxx] Souken-shoukou (双剣将校),
+    [xxx/025] Dualblade Devotee, [063/066] Moderator, [109/114] Radial Arc
+    Adept, [110/115] Radial Arc Master
+  Req. for mastery: "Adept: 100, Master: 800"
+aerial barrage:
+  Arte Name: Aerial Barrage
+  Enabled Effects: "-"
+  Enemy Attributes: Reptile
+  Damage Type: "Shot, Petrify"
+  Total Damage (%): "350"
+  Damage Multiplier (per hit): "0.50"
+  Max Hits: "7"
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Dutiful Brother, [036/039] Marksman, [xxx/066] Moderator,
+    [107/xxx] Scarlet Salvo Adept, [111/116] Aerial Barrage Adept, [112/117]
+    Aerial Barrage Master
+  Req. for mastery: "Adept: 100, Master: 800"
+covering fire:
+  Arte Name: Covering Fire
+  Enabled Effects: "-"
+  Enemy Attributes: "Bird, Spirit"
+  Damage Type: Shot
+  Total Damage (%): "330"
+  Damage Multiplier (per hit): "0.82"
+  Max Hits: 4 (2~4)
+  Casting Time (seconds): "-"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [016/016] Steadfast Denier, [068/071] Determined Collector, [075/078] Big
+    Spender, [113/118] Covering Fire Adept, [114/118] Covering Fire Master
+  Req. for mastery: "Adept: 100, Master: 800"
+gravity blast:
+  Arte Name: Gravity Blast
+  Enabled Effects: Knockdown
+  Enemy Attributes: "Amorphous, Nova, **Inorganic**"
+  Damage Type: "Aerial, **Slow**"
+  Total Damage (%): "450"
+  Damage Multiplier (per hit): "0.75"
+  Max Hits: "6"
+  Casting Time (seconds): "1.00"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [016/016] Steadfast Denier, [023/xxx] Joukyuu Soukenshi (上級双剣士), [xxx/026]
+    Dualblade Maven, [xxx/112] Scarlet Salvo Adept, [111/xxx] Aerial Barrage
+    Adept, [115/120] Gravity Blast Adept, [116/121] Gravity Blast Master
+  Req. for mastery: "Adept: 90, Master: 720"
+cross mirage:
+  Arte Name: Cross Mirage
+  Enabled Effects: "-"
+  Enemy Attributes: "Human, Nova, **Aquatic**, **Beast**"
+  Damage Type: Shot
+  Total Damage (%): "430"
+  Damage Multiplier (per hit): "0.86"
+  Max Hits: "5"
+  Casting Time (seconds): "1.17"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [007/007] Ambivalent Son, [014/014] Lover of Lhant, [043/046] Combo
+    Master, [117/122] Cross Mirage Adept, [118/123] Cross Mirage Master
+  Req. for mastery: "Adept: 90, Master: 720"
+beast blaster:
+  Arte Name: Beast Blaster
+  Enabled Effects: "?"
+  Enemy Attributes: "Insect, Beast, **Reptile**"
+  Damage Type: "Shot, **Freeze**"
+  Total Damage (%): "550"
+  Damage Multiplier (per hit): "0.91"
+  Max Hits: 6 (4~8)
+  Casting Time (seconds): "1.33"
+  CC Cost: "5"
+  "Title Acquisition[Wii/PS3]": >-
+    [009/009] Heart of Lhant, [024/xxx] Rekisen Soukenshi (歴戦双剣士), [xxx/027]
+    Dualblade Ace, [076/079] Major Splurger, [119/124] Beast Blaster Adept,
+    [120/125] Beast Blaster Master
+  Req. for mastery: "Adept: 80, Master: 640"
+absolute zero:
+  Arte Name: Absolute Zero
+  Enabled Effects: Knockdown
+  Enemy Attributes: Fiend
+  Damage Type: "Shot, Freeze, **Paralysis**, **Slow**"
+  Total Damage (%): "650"
+  Damage Multiplier (per hit): "0.46"
+  Max Hits: 14 (14~17)
+  Casting Time (seconds): "1.50"
+  CC Cost: "6"
+  "Title Acquisition[Wii/PS3]": >-
+    [025/xxx] Yuusha Soukenshi (勇者双剣士), [xxx/028] Dualblade Maestro, [069/072]
+    Compulsive Collector, [077/080] Shopaholic, [121/126] Absolute Zero Adept,
+    [122/127] Absolute Zero Master
+  Req. for mastery: "Adept: 70, Master: 560"
+antidote:
+  Arte Name: Antidote
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "1.00"
+  CC Cost: "3"
+  "Title Acquisition[Wii/PS3]": >-
+    [005/005] Dutiful Brother, [067/070] Dilettante Collector, [070/073]
+    Obsessive Collector, [123/128] Antidote Adept, [124/129] Antidote Master
+  Description: "cures Poison, Paralysis, Weak, and Burn for one ally"
+  Req. for mastery: "Adept: 40, Master: 320"
+healing wind:
+  Arte Name: Healing Wind
+  Enabled Effects: "-"
+  Enemy Attributes: "-"
+  Damage Type: "-"
+  Total Damage (%): "-"
+  Damage Multiplier (per hit): "-"
+  Max Hits: "-"
+  Casting Time (seconds): "3.50"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [006/006] The Youngest Lieutenant, [011/011] Keeper of Secrets, [072/075]
+    Gald Saver, [125/130] Healing Wind Adept, [126/131] Healing Wind Master
+  Description: heals 25% of max HP to all allies within a small range
+  Req. for mastery: "Adept: 35, Master: 280"
+rolling thunderbolt:
+  Arte Name: Rolling Thunderbolt
+  Enabled Effects: Knockdown
+  Enemy Attributes: Nova
+  Damage Type: Paralysis
+  Total Damage (%): "390"
+  Damage Multiplier (per hit): "0.65"
+  Max Hits: "6"
+  Casting Time (seconds): "-"
+  CC Cost: "4"
+  "Title Acquisition[Wii/PS3]": >-
+    [xxx/021] Contrarian, [xxx/120] Gravity Blast Adept, [xxx/132] Rolling
+    Thunderbolt Adept, [xxx/133] Rolling Thunderbolt Master
+  Req. for mastery: "Adept: 90, Master: 720"
