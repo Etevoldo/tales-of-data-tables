@@ -4,6 +4,11 @@ body {
     color: #fbfbfb;
     background-color: #1f1f1f;
 }
+
+main {
+    margin: 0 1em;
+}
+
 a {
     color: #a4cefe;
 }
@@ -12,7 +17,7 @@ a:visited {
 }
 
 /* grid layout */
-main {
+.grid {
     display: grid;
     grid-template-columns: 4fr 1fr;
     column-gap: 1em;
@@ -58,6 +63,18 @@ tr:nth-child(2n) {
 .basic th:nth-last-child(2) {
     width: 16em;
 }
+.basic th:last-child {
+    min-width: 5em;
+}
 tr:nth-child(2n) {
     background-color: inherit;
+}
+
+.content-body {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.content-toc {
+    grid-column: 2 / 3;
+    grid-row: 1;
 }
