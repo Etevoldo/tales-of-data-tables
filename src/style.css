@@ -27,15 +27,12 @@ table {
 }
 td, th {
     border: 1px solid #727272;
+    padding: 0.2rem;
 }
 tr:nth-child(2n) {
     background-color: #2e2e2e;
 }
 
-/* enchant table */
-.enchant th, .enchant td {
-    padding: 0.2rem;
-}
 .enchant th:first-child {
     min-width: 8rem;
 }
@@ -52,4 +49,15 @@ tr:nth-child(2n) {
 .toc ol {
     margin: 0;
     padding: 5px 20px 5px 40px;
+}
+
+/*artes table*/
+.basic th:first-child {
+    width: 8em;
+}
+.basic th:nth-last-child(2) {
+    width: 16em;
+}
+tr:nth-child(2n) {
+    background-color: inherit;
 }

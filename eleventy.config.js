@@ -9,7 +9,10 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/style.css");
     eleventyConfig.addPlugin(pluginTOC);
     eleventyConfig.addDataExtension("yaml", (contents) => YAML.parse(contents));
-    eleventyConfig.addFilter("markdown", (contents) => marked.parseInline(contents));
+    eleventyConfig.addFilter("markdown", (contents) => {
+        if (!contents) return;
+        return marked.parseInline(contents);
+    });
 
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     return {
