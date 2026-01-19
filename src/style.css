@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 100em;
+    max-width: 1500px;
     color: #fbfbfb;
     background-color: #1f1f1f;
 }
@@ -17,10 +17,12 @@ a:visited {
 }
 
 /* grid layout */
-.grid {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    column-gap: 1em;
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        column-gap: 1em;
+    }
 }
 
 table {
@@ -57,17 +59,20 @@ tr:nth-child(2n) {
 }
 
 /*artes table*/
-.basic th:first-child {
+.graces-artes th:first-child {
     width: 8em;
 }
-.basic th:nth-last-child(2) {
+.graces-artes th:nth-last-child(2) {
     width: 16em;
 }
-.basic th:last-child {
+.graces-artes th:last-child {
     min-width: 5em;
 }
-tr:nth-child(2n) {
+.graces-artes tr[class="odd"] {
     background-color: inherit;
+}
+.graces-artes tr[class="even"] {
+    background-color: #2e2e2e;
 }
 
 .content-body {
