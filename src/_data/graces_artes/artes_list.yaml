@@ -611,8 +611,8 @@ sophie:
     Req. for mastery: 'Adept: 80, Master: 400'
   demolition drive:
     Arte Name: Demolition Drive
-    Enabled Effects: >-
-      causes the background to grow dark on a clean hit; after using any Assault
+    Description: >-
+      causses the background to grow dark on a clean hit; after using any Assault
       Arte, continue to hold the Assault Artes button to fill 3 gauges, then
       release the button once all gauges are full
     Enemy Attributes: 'Fiend, Nova'

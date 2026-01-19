@@ -1,5 +1,5 @@
 {% macro gracesArtesTable(character, dataSource) %}
-  <table class="basic">
+  <table class="graces-artes">
     <tr>
       <th>Arte Name</th>
       <th>Enabled Effects</th>
@@ -14,7 +14,7 @@
       <th>Req. for mastery</th>
     </tr>
     {% for arteKey, arteProps in dataSource %}
-      <tr>
+      <tr class={{"even" if loop.index0 % 2 == 0 else "odd"}} >
         <td
           {% if arteProps["Description"] %} 
             rowspan=2
@@ -40,7 +40,7 @@
         <td class="req-mastery">{{arteProps["Req. for mastery"]}}</td>
       </tr>
       {% if arteProps["Description"] %}
-        <tr>
+        <tr class={{"even" if loop.index0 % 2 == 0 else "odd"}}>
           <td colspan=10>{{arteProps["Description"] | markdown | capitalize | safe }}</td>
         </tr>
       {% endif %}

@@ -71,10 +71,6 @@ double moon:
   Req. for mastery: "Adept: 80, Master: 400"
 demolition drive:
   Arte Name: Demolition Drive
-  Enabled Effects: >-
-    causes the background to grow dark on a clean hit; after using any Assault
-    Arte, continue to hold the Assault Artes button to fill 3 gauges, then
-    release the button once all gauges are full
   Enemy Attributes: "Fiend, Nova"
   Damage Type: Strike
   Total Damage (%): "250, 280"
@@ -430,7 +426,7 @@ invigoration:
   "Title Acquisition[Wii/PS3]": >-
     [xxx/022] Toast of the Town, [xxx/124] Cure Adept, [xxx/148] Invigoration
     Adept, [xxx/149] Invigoration Master, [xxx/149] Invigoration Master
-  Req. for mastery: "Adept: 25,, Master: 200"
+  Req. for mastery: "Adept: 25, Master: 200"
 critical blade:
   Arte Name: Critical Blade
   Enemy Attributes: Nova
