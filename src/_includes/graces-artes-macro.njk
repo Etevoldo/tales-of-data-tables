@@ -13,12 +13,10 @@
       <th>Title Acquisition[Wii/PS3]</th>
       <th>Req. for mastery</th>
     </tr>
+    {% set cls = cycler("odd", "even") %}
     {% for arteKey, arteProps in dataSource %}
-      <tr class={{"even" if loop.index0 % 2 == 0 else "odd"}} >
-        <td
-          {% if arteProps["Description"] %} 
-            rowspan=2
-          {% endif %} >
+      <tr class={{ cls.next() }}>
+        <td {{"rowspan=2" if arteProps["Description"]}}>
           {{arteProps["Arte Name"]}}
         </td>
         <td>{{arteProps["Enabled Effects"]}}</td>
@@ -40,7 +38,7 @@
         <td class="req-mastery">{{arteProps["Req. for mastery"]}}</td>
       </tr>
       {% if arteProps["Description"] %}
-        <tr class={{"even" if loop.index0 % 2 == 0 else "odd"}}>
+        <tr class={{ cls.current }}>
           <td colspan=10>{{arteProps["Description"] | markdown | capitalize | safe }}</td>
         </tr>
       {% endif %}
