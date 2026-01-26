@@ -4,20 +4,33 @@ layout: layout.njk
 ---
 <h1>Destiny 2</h1>
 <ul>
-    <li>
-        <a href="/destiny-2/enchants">Destiny 2 Enchants</a>
-    </li>
+  <li>
+    <a href="/destiny-2/enchants">Destiny 2 Enchants</a>
+  </li>
 </ul>
 <h1> Graces </h1>
 <ul>
-    <li>
-        <a href="/graces/artes">Graces Artes</a>
-        <ul>
-            {% for character, artes in graces.artes %}
-                <li>
-                    <a href="/graces/artes#{{character}}">{{character | title}}</a>
-                </li>
-            {% endfor %}
-        </ul>
-    </li>
+  <li>
+    <a href="/graces/artes">Graces Artes</a>
+    <ul>
+      {% for character, artes in graces.artes %}
+        <li>
+          <a href="/graces/artes#{{character}}">{{character | title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
+</ul>
+<h1> Xillia </h1>
+<ul>
+  <li>
+    <a href="/xillia1/artes">Graces Artes</a>
+    <ul>
+      {% for character, artes in xillia1.artes %}
+        <li>
+          <a href="/xillia1/artes#{{character}}">{{character | title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
 </ul>
