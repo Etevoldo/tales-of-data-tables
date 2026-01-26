@@ -6,7 +6,7 @@ tags:
   - subpage
 ---
 
-{% macro xilliaArtesTable(character, dataSource) %}
+{% macro xilliaArtesTable(dataSource) %}
   <table class="zebra">
     <thead>
       <tr>
@@ -51,6 +51,15 @@ tags:
   </table>
 {% endmacro %}
 
+<h2 id="Jude">Jude</h2>
+{{ xilliaArtesTable(xillia1.artes.jude) }}
 <h2 id="Milla">Milla</h2>
-{{ xilliaArtesTable('Milla', xillia1.xillia.milla) }}
-<script src="/sorttable.js"></script>
+{{ xilliaArtesTable(xillia1.artes.milla) }}
+<h2 id="Alvin">Alvin</h2>
+{{ xilliaArtesTable(xillia1.artes.alvin) }}
+<h2 id="Elize">Elize</h2>
+{{ xilliaArtesTable(xillia1.artes.elize) }}
+<h2 id="Rowen">Rowen</h2>
+{{ xilliaArtesTable(xillia1.artes.rowen) }}
+<h2 id="Leia">Leia</h2>
+{{ xilliaArtesTable(xillia1.artes.leia) }}
