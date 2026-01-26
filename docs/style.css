@@ -32,7 +32,7 @@ table {
     border-radius: 10px;
     margin: 0 0 5em;
 }
-tr:first-child {
+thead {
     background-color: #2e2e2e;
     position: sticky;
     top: 0;
@@ -63,17 +63,19 @@ tr:nth-child(2n) {
     padding: 5px 20px 5px 40px;
 }
 
-/*artes table*/
+/*graces artes table*/
 .graces-artes th:first-child {
     width: 8em;
 }
 .graces-artes th:last-child {
     min-width: 5em;
 }
-.graces-artes tr[class="odd"] {
-    background-color: inherit;
+
+/*zebra background for tables*/
+.zebra .odd {
+    background-color: #1f1f1f;
 }
-.graces-artes tr[class="even"] {
+.zebra .even {
     background-color: #2e2e2e;
 }
 
