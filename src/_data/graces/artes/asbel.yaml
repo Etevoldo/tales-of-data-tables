@@ -8,12 +8,14 @@ strike:
   Max Hits: "1"
   CC Cost: "1"
   "Title Acquisition[Wii/PS3]": event
-  Description: >-
-    Activated by pressing the Assault Artes button while the Burst Artes style
-    is active. If Asbel is within melee distance of the target, he will
-    perform a slow attack that sheathes his blade. If Asbel is further away,
-    he will not attack but simply sheathe his blade in a quick motion. Returns
-    sword to sheathed state to allow Asbel to chain into Assault Artes. Heals
+  Description: |
+    - Activated by pressing the Assault Artes button while the Burst Artes style
+    is active.
+    - If Asbel is within melee distance of the target, he will
+    perform a slow attack that sheathes his blade.
+    - If Asbel is further away, he will not attack but simply sheathe his blade in a quick motion. Returns
+    sword to sheathed state to allow Asbel to chain into Assault Artes.
+    - Heals
     a small amount of HP to self based on physical defense and the number of
     artes chained together while Asbel was in Burst Artes style.
 quick slash:

@@ -11,7 +11,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addDataExtension("yaml", (contents) => YAML.parse(contents));
     eleventyConfig.addFilter("markdown", (contents) => {
         if (!contents) return;
-        return marked.parseInline(contents);
+        return marked.parse(contents);
     });
 
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
