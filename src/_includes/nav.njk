@@ -1,3 +1,8 @@
 <nav>
-    <ul> <li><a href="/">Home</a></li> </ul>
+    <ul>
+        <li> <a href="/">Home</a> </li>
+        {% for page in collections.subpage%}
+        <li> <a href="{{page.url}}">{{page.data.title}}</a> </li>
+        {%endfor%}
+    </ul>
 </nav>

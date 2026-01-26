@@ -85,3 +85,13 @@ tr:nth-child(2n) {
     grid-column: 2 / 3;
     grid-row: 1;
 }
+
+/* nav */
+nav ul {
+    display: flex;
+    list-style: none;
+    width: fit-content;
+}
+nav li {
+    margin-right: 1em;
+}
