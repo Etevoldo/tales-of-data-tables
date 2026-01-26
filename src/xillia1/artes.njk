@@ -1,0 +1,56 @@
+---
+title: 'Xillia artes'
+layout: layout
+tags: 
+  - arteList
+  - subpage
+---
+
+{% macro xilliaArtesTable(character, dataSource) %}
+  <table class="zebra">
+    <thead>
+      <tr>
+        <th>Arte Name</th>
+        <th>Enabled Effects</th>
+        <th>Elemental Attributes</th>
+        <th>Sub-Status Attributes</th>
+        <th>Damage Effect</th>
+        <th>Damage Spread</th>
+        <th>Total Damage (%)</th>
+        <th>Max Hits</th>
+        <th>TP Cost</th>
+        <th>Cast Time</th>
+        <th>Requirements</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% set cls = cycler("odd", "even") %}
+      {% for arteKey, arteProps in dataSource %}
+        <tr class={{ cls.next() }}>
+          <td {{"rowspan=2" if arteProps["Description"]}}>
+            {{arteKey | title}}
+          </td>
+          <td>{{arteProps["Enabled Effects"]}}</td>
+          <td>{{arteProps["Elemental Attributes"] }}</td>
+          <td>{{arteProps["Sub-Status Attributes"] }}</td>
+          <td>{{arteProps["Damage Effect"]}}</td>
+          <td>{{arteProps["Damage Spread"]}}</td>
+          <td>{{arteProps["Total Damage (%)"]}}</td>
+          <td>{{arteProps["Max Hits"]}}</td>
+          <td>{{arteProps["TP Cost"]}}</td>
+          <td>{{arteProps["Casting Time (seconds)"] }}</td>
+          <td>{{arteProps["Requirements"] }}</td>
+        </tr>
+        {% if arteProps["Description"] %}
+          <tr class={{ cls.current }}>
+            <td colspan=10>{{arteProps["Description"] | markdown |  safe }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+{% endmacro %}
+
+<h2 id="Milla">Milla</h2>
+{{ xilliaArtesTable('Milla', xillia1.xillia.milla) }}
+<script src="/sorttable.js"></script>
