@@ -1,47 +1,51 @@
 {% macro gracesArtesTable(character, dataSource) %}
-  <table class="graces-artes">
-    <tr>
-      <th>Arte Name</th>
-      <th>Enabled Effects</th>
-      <th>Enemy Attributes</th>
-      <th>Damage Type</th>
-      <th>Total Damage (%)</th>
-      <th>Damage Multiplier (per hit)</th>
-      <th>Max Hits</th>
-      <th>CC Cost</th>
-      <th>Cast Time</th>
-      <th>Title Acquisition[Wii/PS3]</th>
-      <th>Req. for mastery</th>
-    </tr>
-    {% set cls = cycler("odd", "even") %}
-    {% for arteKey, arteProps in dataSource %}
-      <tr class={{ cls.next() }}>
-        <td {{"rowspan=2" if arteProps["Description"]}}>
-          {{arteProps["Arte Name"]}}
-        </td>
-        <td>{{arteProps["Enabled Effects"]}}</td>
-        <td>{{arteProps["Enemy Attributes"] | markdown | safe }}</td>
-        <td>{{arteProps["Damage Type"] | markdown | safe}}</td>
-        <td>{{arteProps["Total Damage (%)"]}}</td>
-        <td>{{arteProps["Damage Multiplier (per hit)"]}}</td>
-        <td>{{arteProps["Max Hits"]}}</td>
-        <td>{{arteProps["CC Cost"]}}</td>
-        <td>
-          {{arteProps["Casting Time (seconds)"] }}
-        </td>
-        <td class="title-acquisition">
-          <details>
-            <summary>Expand</summary>
-            {{arteProps["Title Acquisition[Wii/PS3]"] | safe | replace(", ", "<br>")}}
-          </details>
-        </td>
-        <td class="req-mastery">{{arteProps["Req. for mastery"]}}</td>
+  <table class="graces-artes zebra">
+    <thead>
+      <tr>
+        <th>Arte Name</th>
+        <th>Enabled Effects</th>
+        <th>Enemy Attributes</th>
+        <th>Damage Type</th>
+        <th>Total Damage (%)</th>
+        <th>Damage Multiplier (per hit)</th>
+        <th>Max Hits</th>
+        <th>CC Cost</th>
+        <th>Cast Time</th>
+        <th>Title Acquisition[Wii/PS3]</th>
+        <th>Req. for mastery</th>
       </tr>
-      {% if arteProps["Description"] %}
-        <tr class={{ cls.current }}>
-          <td colspan=10>{{arteProps["Description"] | markdown | capitalize | safe }}</td>
+    </thead>
+    <tbody>
+      {% set cls = cycler("odd", "even") %}
+      {% for arteKey, arteProps in dataSource %}
+        <tr class={{ cls.next() }}>
+          <td {{"rowspan=2" if arteProps["Description"]}}>
+            {{arteProps["Arte Name"]}}
+          </td>
+          <td>{{arteProps["Enabled Effects"]}}</td>
+          <td>{{arteProps["Enemy Attributes"] | markdown | safe }}</td>
+          <td>{{arteProps["Damage Type"] | markdown | safe}}</td>
+          <td>{{arteProps["Total Damage (%)"]}}</td>
+          <td>{{arteProps["Damage Multiplier (per hit)"]}}</td>
+          <td>{{arteProps["Max Hits"]}}</td>
+          <td>{{arteProps["CC Cost"]}}</td>
+          <td>
+            {{arteProps["Casting Time (seconds)"] }}
+          </td>
+          <td class="title-acquisition">
+            <details>
+              <summary>Expand</summary>
+              {{arteProps["Title Acquisition[Wii/PS3]"] | safe | replace(", ", "<br>")}}
+            </details>
+          </td>
+          <td class="req-mastery">{{arteProps["Req. for mastery"]}}</td>
         </tr>
-      {% endif %}
-    {% endfor %}
+        {% if arteProps["Description"] %}
+          <tr class={{ cls.current }}>
+            <td colspan=10>{{arteProps["Description"] | markdown | safe }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
   </table>
 {% endmacro %}
