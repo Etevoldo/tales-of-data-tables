@@ -2006,8 +2006,8 @@
       "Max Hits": "2",
       "TP Cost": "10",
       "Requirements": "Spirit Shift: Wind Lance",
-      "Description": "- all variations require Milla to be in melee range to deal the max hit count\n- the first slash forces downed enemies to stand after 400 uses\n- when activated from Arrivederci or Cyclone, Milla goes airborne after the first slash\n- when activated from Cyclone:\n  - the final hit will cause knockdown\n  - when activated from the ground, the final hit can be canceled by attacking, back stepping, or performing another arte"
-    },
+      "Description": "- all variations require Milla to be in melee range to deal the max hit count\n- the first slash forces downed enemies to stand after 400 uses"
+      },
     "Wind Blade (Arrivederci)": {
       "Arte Name": "Wind Blade",
       "Enabled Effects": "Aerial, Stand Up",
@@ -2018,8 +2018,8 @@
       "Max Hits": "3",
       "TP Cost": "26",
       "Requirements": "Spirit Shift: Arrivederci",
-      "Description": "- all variations require Milla to be in melee range to deal the max hit count\n- the first slash forces downed enemies to stand after 400 uses\n- when activated from Arrivederci or Cyclone, Milla goes airborne after the first slash\n- when activated from Cyclone:\n  - the final hit will cause knockdown\n  - when activated from the ground, the final hit can be canceled by attacking, back stepping, or performing another arte"
-    },
+      "Description": "- all variations require Milla to be in melee range to deal the max hit count\n- the first slash forces downed enemies to stand after 400 uses\n- when activated from Arrivederci or Cyclone, Milla goes airborne after the first slash"
+      },
     "Wind Blade (Cyclone)": {
       "Arte Name": "Wind Blade",
       "Enabled Effects": "Aerial, Stand Up, Knockdown",

@@ -7,6 +7,9 @@ export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory("src");
     eleventyConfig.setOutputDirectory("docs");
     eleventyConfig.addPassthroughCopy("./src/style.css");
+    eleventyConfig.addPassthroughCopy("./src/ddc/rerise.css");
+    eleventyConfig.addPassthroughCopy("./src/ddc/*.js");
+    eleventyConfig.addPassthroughCopy("./externalLibraries/*.js");
     eleventyConfig.addPlugin(pluginTOC);
     eleventyConfig.addDataExtension("yaml", (contents) => YAML.parse(contents));
     eleventyConfig.addFilter("markdown", (contents) => {

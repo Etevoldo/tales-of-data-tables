@@ -3,8 +3,10 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home</title>
+      <title>Rerise Calculator</title>
       <link rel="stylesheet" href="/tales-of-data-tables/style.css">
+      
+        <link rel="stylesheet" href="../rerise.css">
       
   </head>
   <body>
@@ -31,89 +33,33 @@
 </nav>
     <main>
       <header>
-        <h1>Home</h1>
+        <h1>Rerise Calculator</h1>
       </header>
       <div class="grid">
         <aside class="content-toc">
           
         </aside>
         <div class="content-body">
-          <h1>Destiny 2</h1>
-<ul>
-  <li>
-    <a href="/tales-of-data-tables/destiny-2/enchants">Destiny 2 Enchants</a>
-  </li>
-</ul>
-<h1> Graces </h1>
-<ul>
-  <li>
-    <a href="/tales-of-data-tables/graces/artes">Graces Artes</a>
-    <ul>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#asbel">Asbel</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#cheria">Cheria</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#hubert">Hubert</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#malik">Malik</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#pascal">Pascal</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#richard">Richard</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/graces/artes#sophie">Sophie</a>
-        </li>
-      
-    </ul>
-  </li>
-</ul>
-<h1> Xillia </h1>
-<ul>
-  <li>
-    <a href="/tales-of-data-tables/xillia1/artes">Graces Artes</a>
-    <ul>
-      
-        <li>
-          <a href="/tales-of-data-tables/xillia1/artes#jude">Jude</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/xillia1/artes#alvin">Alvin</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/xillia1/artes#rowen">Rowen</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/xillia1/artes#elize">Elize</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/xillia1/artes#leia">Leia</a>
-        </li>
-      
-        <li>
-          <a href="/tales-of-data-tables/xillia1/artes#milla">Milla</a>
-        </li>
-      
-    </ul>
-  </li>
-</ul>
+          
+<form id="searchForm">
+  <label for="itemSearchInput">Search item to rerise:</label>
+  <input id="itemSearchInput" type="search" list="itemSearch">
+  <button id="itemSearchBtn">Search rerise tree</button>
+</form>
+<datalist id="itemSearch"></datalist>
+
+
+<div id="notFoundMessage">
+  <p>Cound't found the tree for <span id="searchTerm"></span></p>
+</div>
+
+<div id="cy"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.33.1/cytoscape.min.js" integrity="sha512-kHAY8XzRfLVMcLuowdk91552RD+Nb2/1uHamfHMdLejNqlZnbEJLl1wYnsNnqIFCEZ++WaOcOlfokC6p9JWrLw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/elkjs@0.9.3/lib/elk.bundled.js"></script>
+<script src="/tales-of-data-tables/externalLibraries/cytoscape-elk.js"></script>
+<script type="module" src="../reriseData.js"></script>
+<script type="module" src="../calculator.js"></script>
         </div>
       </div>
     </main>
