@@ -97,13 +97,3 @@ nav ul {
 nav li {
     margin-right: 1em;
 }
-
-@media (max-width: 1000px) {
-    body {
-        font-size: 1.5em;
-    }
-    input, button {
-        font-size: 1.5em;
-        margin: 5px;
-    }
-}

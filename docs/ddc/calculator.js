@@ -3,9 +3,14 @@
 import { items } from "./rerise.11tydata.js"
 
 function findObj(equipName, node) {
-    node.name = equipName; 
+    node.name = equipName;
     node.id = equipName.replace(' ', '-'); //css ids cant have space
 
+    node.OtherMethods = items[equipName].OtherMethods;
+
+    if (node.OtherMethods === '') {
+        node.OtherMethods = "Rerise Only"
+    }
     let reriseFromList = items[equipName].ReriseFrom;
 
     /* base case */
@@ -15,8 +20,8 @@ function findObj(equipName, node) {
     node.subNodes = [];
 
     for (let subNodeName of reriseFromList) {
-        let subNode = { name: subNodeName };
-        if(items[equipName].Requires) {
+        let subNode = { };
+        if (items[equipName].Requires) {
             subNode.requires = items[equipName].Requires
         }
         node.subNodes.push(subNode);
@@ -92,15 +97,16 @@ const cy = cytoscape({
 function renderCyTree(node) {
     cy.elements().remove();
     cy.add({
-        data: { 
+        data: {
             id: node.name,
-            caption: kebabToTitle(node.name)
+            caption: kebabToTitle(node.name),
+            aquisition: node.OtherMethods
         }
     });
     addNode(node);
 
-    const mql = window.matchMedia("(width <= 1200px)");
-    const direction = mql.matches ? 'DOWN ': 'RIGHT';
+    const mql = window.matchMedia("(width <= 1000px)");
+    const direction = mql.matches ? 'DOWN ' : 'RIGHT';
     cy.layout({
         nodeDimensionsIncludeLabels: true,
         name: 'elk',
@@ -109,6 +115,19 @@ function renderCyTree(node) {
         }
     }).run();
 
+    // tippy popup
+    cy.ready(function () {
+        cy.elements().forEach(function (ele) {
+            makePopper(ele);
+        });
+    });
+
+    cy.elements().unbind('mouseover');
+    cy.elements().bind('mouseover', (event) => event.target.tippy.show());
+
+    cy.elements().unbind('mouseout');
+    cy.elements().bind('mouseout', (event) => event.target.tippy.hide());
+
 }
 function addNode(node) {
     /* base case*/
@@ -116,9 +135,10 @@ function addNode(node) {
     for (let child of node.subNodes) {
         if (cy.getElementById(child.name).length == 0) {
             cy.add({
-                data: { 
+                data: {
                     id: child.name,
-                    caption: kebabToTitle(child.name)
+                    caption: kebabToTitle(child.name),
+                    aquisition: child.OtherMethods
                 }
             });
         }
@@ -144,4 +164,16 @@ function kebabToTitle(str) {
     str = str.replace(regex, replacer);
     str = str.replace('-', ' ');
     return str;
+}
+
+function makePopper(ele) {
+    let ref = ele.popperRef();
+    ele.tippy = tippy(ref, {
+        content: () => {
+            let content = document.createElement('div');
+            content.innerHTML = ele.data('aquisition');
+            return content;
+        },
+        trigger: 'manual'
+    });
 }

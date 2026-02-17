@@ -1097,11 +1097,11 @@ export const items = {
         "EVA": 72,
         "VIT": 55,
         "Party Level": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Garr※ Cannot be obtained again after re-rising",
+        "Acquisition Method": "Initial: Garr※ Cannot be obtained again after re-rising",
         "EnglishName": "Leather Plate",
         "JPName": "レザープレート(Leather Guard)",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Garr※ Cannot be obtained again after re-rising"
+        "OtherMethods": "Initial: Garr※ Cannot be obtained again after re-rising"
     },
     "Iron Plate": {
         "Icon": "",
@@ -1217,7 +1217,7 @@ export const items = {
         ],
         "OtherMethods": ""
     },
-    "Dia Plate": {
+    "Diamond Plate": {
         "Icon": "",
         "Armor Name": "Dia Plateダイヤプレート\"Diamond Plate\"",
         "Attribute Resistances": "-",
@@ -1430,11 +1430,11 @@ export const items = {
         "EVA": 73,
         "VIT": 60,
         "Party Level": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0} Shop: Darilsheid, Armeida, Cherik, Neuestadt",
+        "Acquisition Method": " Shop: Darilsheid, Armeida, Cherik, Neuestadt",
         "EnglishName": "Bronze Wear",
         "JPName": "ブロンズウェア",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0} Shop: Darilsheid, Armeida, Cherik, Neuestadt"
+        "OtherMethods": " Shop: Darilsheid, Armeida, Cherik, Neuestadt"
     },
     "Iron Wear": {
         "Icon": "",
@@ -1777,11 +1777,11 @@ export const items = {
         "EVA": 71,
         "VIT": 44,
         "Party Level": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Rutee Shop: Janos, Harmentz",
+        "Acquisition Method": "Initial: Rutee Shop: Janos, Harmentz",
         "EnglishName": "Leather Cloak",
         "JPName": "レザークローク",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Rutee Shop: Janos, Harmentz"
+        "OtherMethods": "Initial: Rutee Shop: Janos, Harmentz"
     },
     "White Cloak": {
         "Icon": "",
@@ -2352,11 +2352,11 @@ export const items = {
         "Base Min CC": 3,
         "Base Max CC": 3,
         "Party Level[1]": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Mary Shop: Janos, Harmentz",
+        "Acquisition Method": "Initial: Mary Shop: Janos, Harmentz",
         "EnglishName": "Stone Axe",
         "JPName": "ストーンアックス",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Mary Shop: Janos, Harmentz"
+        "OtherMethods": "Initial: Mary Shop: Janos, Harmentz"
     },
     "Bronze Axe": {
         "Icon": "",
@@ -3000,11 +3000,11 @@ export const items = {
         "Base Min CC": 2,
         "Base Max CC": 4,
         "Party Level[1]": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0} Shop: Cyril, Heidelberg",
+        "Acquisition Method": " Shop: Cyril, Heidelberg",
         "EnglishName": "Wood Arrow",
         "JPName": "ウッドアロー",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0} Shop: Cyril, Heidelberg"
+        "OtherMethods": " Shop: Cyril, Heidelberg"
     },
     "Steel Arrow": {
         "Icon": "",
@@ -3435,11 +3435,11 @@ export const items = {
         "Base Min CC": 2,
         "Base Max CC": 5,
         "Party Level[1]": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0} Shop: Neuestadt, Darilsheid (latter half of the story)Drop: Serpent",
+        "Acquisition Method": " Shop: Neuestadt, Darilsheid (latter half of the story)Drop: Serpent",
         "EnglishName": "Iron Knuckle",
         "JPName": "アイアンナックル(Iron Knuckles)",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0} Shop: Neuestadt, Darilsheid (latter half of the story)Drop: Serpent"
+        "OtherMethods": " Shop: Neuestadt, Darilsheid (latter half of the story)Drop: Serpent"
     },
     "Titanium Knuckle": {
         "Icon": "",
@@ -3776,12 +3776,12 @@ export const items = {
         "Base Min CC": 3,
         "Base Max CC": 5,
         "Party Level[1]": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Karyl Shop: Moreau",
+        "Acquisition Method": "Initial: Karyl Shop: Moreau",
         "Description": "recovers 60 HP after defeating an enemy",
         "EnglishName": "Mandolin",
         "JPName": "マンドリン",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Karyl Shop: Moreau"
+        "OtherMethods": "Initial: Karyl Shop: Moreau"
     },
     "Biwa": {
         "Icon": "",
@@ -3915,12 +3915,12 @@ export const items = {
         "Base Min CC": 6,
         "Base Max CC": 6,
         "Party Level[1]": "-",
-        "Acquisition Method": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Lilith",
+        "Acquisition Method": "Initial: Lilith",
         "Description": "increases enemy stun duration from critical hits by 0.25 seconds",
         "EnglishName": "Tetsu no Otama",
         "JPName": "鉄のおたま\"Iron Ladle\"",
         "ReriseFrom": [],
-        "OtherMethods": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;padding:0;display:table-cell;vertical-align:middle}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-left:0}Initial: Lilith"
+        "OtherMethods": "Initial: Lilith"
     },
     "Tou no Otama": {
         "Icon": "",
