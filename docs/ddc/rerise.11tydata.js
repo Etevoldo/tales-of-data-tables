@@ -2026,7 +2026,8 @@ export const items = {
         "EnglishName": "Spirit Cloak",
         "JPName": "スピリットクローク",
         "ReriseFrom": [
-            "Spirit Cloak",
+            "Warlock Cloak",
+            "Silver Cloak",
             "Wind Breaker"
         ],
         "OtherMethods": ""
