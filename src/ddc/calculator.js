@@ -1,6 +1,6 @@
 'use strict';
 
-import { default as items } from "./reriseData.js"
+import { items } from "./rerise.11tydata.js"
 
 function findObj(equipName, node) {
     node.name = equipName; 
@@ -26,14 +26,7 @@ function findObj(equipName, node) {
 
 function findReriseTree(search) {
     let tree = {};
-    if (!items[search]) {
-        const message = document.getElementById("notFoundMessage");
-        message.style.display = "block";
-        return tree;
-    }
-    else {
-        findObj(search, tree);
-    }
+    findObj(search, tree);
 
     return tree;
 }
@@ -47,9 +40,13 @@ document.getElementById("itemSearchBtn").addEventListener("click", (e) => {
     const notFoundMessage = document.getElementById("notFoundMessage");
     notFoundMessage.style.display = "none";
     //populating Search term in case it doesn't find it
-    const newText = document.createTextNode(searchString);
-    document.getElementById("searchTerm").appendChild(newText);
+    document.getElementById("searchTerm").textContent = searchString;
 
+    if (!items[searchString]) {
+        const message = document.getElementById("notFoundMessage");
+        message.style.display = "block";
+        return;
+    }
     let tree = findReriseTree(searchString);
     renderCyTree(tree);
 });
@@ -101,9 +98,15 @@ function renderCyTree(node) {
         }
     });
     addNode(node);
+
+    const mql = window.matchMedia("(width <= 1200px)");
+    const direction = mql.matches ? 'DOWN ': 'RIGHT';
     cy.layout({
         nodeDimensionsIncludeLabels: true,
         name: 'elk',
+        elk: {
+            'elk.direction': direction
+        }
     }).run();
 
 }

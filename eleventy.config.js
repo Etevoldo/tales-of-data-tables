@@ -6,6 +6,7 @@ import { marked } from "marked";
 export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory("src");
     eleventyConfig.setOutputDirectory("docs");
+    eleventyConfig.addPassthroughCopy("./src/favicon.png");
     eleventyConfig.addPassthroughCopy("./src/style.css");
     eleventyConfig.addPassthroughCopy("./src/ddc/rerise.css");
     eleventyConfig.addPassthroughCopy("./src/ddc/*.js");

@@ -1,6 +1,7 @@
 ---
 title: 'Rerise Calculator'
 layout: 'layout.njk'
+data: rerise
 tags: 
   - subpage
 customCSS: '../rerise.css'
@@ -8,14 +9,17 @@ customCSS: '../rerise.css'
 
 <form id="searchForm">
   <label for="itemSearchInput">Search item to rerise:</label>
-  <input id="itemSearchInput" type="search" list="itemSearch">
+  <input id="itemSearchInput" type="search" list="itemSearch" placeholder="Type item name">
   <button id="itemSearchBtn">Search rerise tree</button>
 </form>
-<datalist id="itemSearch"></datalist>
-{# TODO: datafill this #}
+<datalist id="itemSearch">
+  {% for arteKey, arteProps in items %}
+    <option>{{arteKey}}</option>
+  {% endfor %}
+</datalist>
 
 <div id="notFoundMessage">
-  <p>Cound't found the tree for <span id="searchTerm"></span></p>
+  <p>Couldn't find the tree for <span id="searchTerm"></span></p>
 </div>
 
 <div id="cy"></div>
@@ -23,5 +27,5 @@ customCSS: '../rerise.css'
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.33.1/cytoscape.min.js" integrity="sha512-kHAY8XzRfLVMcLuowdk91552RD+Nb2/1uHamfHMdLejNqlZnbEJLl1wYnsNnqIFCEZ++WaOcOlfokC6p9JWrLw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/elkjs@0.9.3/lib/elk.bundled.js"></script>
 <script src="/externalLibraries/cytoscape-elk.js"></script>
-<script type="module" src="../reriseData.js"></script>
+<script type="module" src="../rerise.11tydata.js"></script>
 <script type="module" src="../calculator.js"></script>
