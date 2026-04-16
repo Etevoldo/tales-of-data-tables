@@ -51,6 +51,11 @@ tr:nth-child(2n) {
 .enchant th:last-child {
     text-align: left;
 }
+.enchant img
+{
+    width: 1.5em;
+    padding-top: inherit;
+}
 
 /*toc*/
 .toc {
