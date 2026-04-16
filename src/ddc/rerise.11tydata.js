@@ -739,7 +739,7 @@ export const items = {
         ],
         "OtherMethods": ""
     },
-    "Dia Armor": {
+    "Diamond Armor": {
         "Icon": "",
         "Armor Name": "Dia Armorダイヤアーマー\"Diamond Armor\"",
         "Attribute Resistances[1]": "Dark",
